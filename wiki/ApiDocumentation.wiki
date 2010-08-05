@@ -8,25 +8,17 @@ h1. 版权
 
 h1. [认证方式|http://code.google.com/p/kuaidi-api/wiki/ApiDocumentation#认证方式]
 
-本站api需要申请人想本站申请身份key，身份key是使用本api的唯一授权码，请妥善保存。目前每个 身份key 限制每小时只能同时查询1000条记录，否则拒绝服务。
+   快递查询API提供了通过快递单号对常见快递公司的快递状况查询功能。
+调用本站API需要申请人先进行申请，并提供必要的信息（企业或个人基本信息，API调用应用场景和频度等）。通过申请后，获得身份key。身份key是使用本API的唯一授权码，请妥善保存。根据用户的应用场景，对指定身份key将授予相应的查询额度。
+   申请邮箱：kuaidi@kingdee.com
 
-申请方式，请选择其一进行：
-服务邮箱：kuaidi@kingdee.com
-服务热线：4008-800-898
-传 真 号 ：4008-800-898 转 8
-
-申请通过之后，相关人员会发送 身份key授权，请保管好。
 
 h1. [搜索|http://code.google.com/p/kuaidi-api/wiki/ApiDocumentation#搜索]
 
 URL:
-
-[http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0|1]|http://www.kuaidi100.com/api?id=%5b%5d&com=%5bcom%5d&nu=%5bnu%5d&show=%5b0|1|2%5d&muti=%5b0|1%5d]
-
+http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0|1]
   参数:
-
   id：（必填）身份key，为16位字母和数字的组合，请联系网站进行申请
-
   com: （必填）查询公司代码，不支持中文，目前支持本网站的不带验证码的51家快递公司，对应的公司代码如下，如有添加，请关注本网站的更新公告。
 
 ||*快递公司代码*|| *公司名称*||
@@ -83,17 +75,13 @@ URL:
 ||zhongtong||中通速递||
 ||zhongyouwuliu||中邮物流||
 nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
-
 show: (可选) 返回类型。目前本网站支持互联网上的4种通用合适，其中0：表示返回json字符串，1：表示返回xml对象，2：表示返回html对象，3：表示返回text文本。如果不填的话，默认返回json字符串
-
 muti: (可选) 显示格式。本网站提供显示一行还是多行的选择。返回结果全部按快递最近的状态进行排序，您可以选择一行或者多行记录。如果不填的话，默认返回多行值。
 
 h1. 返回值类型
 
-本返回值通过
-
+  本返回值通过
 http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1,
-
 为例说明
 
 h2. Json返回示例：
@@ -112,76 +100,41 @@ Stauts： 结果状态，0，无查询结果，1，查询成功
 
 h2. xml返回示例：
 
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <xml>
-
-<message />
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-08-04 02:26</time>
-
-<context>由【杭州集散】发往【湖州中转站】</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-07-12 01:48</time>
-
-<context>【东莞集散】的收件员【企石线】已收件</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-07-01 11:19</time>
-
-<context>【泰州海陵】的派件员【刘魁15850876697】正在派件</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-06-27 09:59</time>
-
-<context>快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-06-27 09:45</time>
-
-<context>快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-05-22 18:58</time>
-
-<context>由【浦东分拨中心】发往【上海】</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-05-21 21:12</time>
-
-<context>快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】</context>
-
-</data>
-
-[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
-
-<time>2010-04-25 21:45</time>
-
-<context>由【北京集散】发往【哈尔滨】</context>
-
-</data>
-
-<stauts>1</stauts>
-
+<xml>
+	<message />
+	<data>
+		<time>2010-08-04 02:26</time>
+		<context>由【杭州集散】发往【湖州中转站】</context>
+	</data>
+	<data>
+		<time>2010-07-12 01:48</time>
+		<context>【东莞集散】的收件员【企石线】已收件</context>
+	</data>
+	<data>
+		<time>2010-07-01 11:19</time>
+		<context>【泰州海陵】的派件员【刘魁15850876697】正在派件</context>
+	</data>
+	<data>
+		<time>2010-06-27 09:59</time>
+		<context>快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】</context>
+	</data>
+	<data>
+		<time>2010-06-27 09:45</time>
+		<context>快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】</context>
+	</data>
+	<data>
+		<time>2010-05-22 18:58</time>
+		<context>由【浦东分拨中心】发往【上海】</context>
+	</data>
+	<data>
+		<time>2010-05-21 21:12</time>
+		<context>快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】</context>
+	</data>
+	<data>
+		<time>2010-04-25 21:45</time>
+		<context>由【北京集散】发往【哈尔滨】</context>
+	</data>
+	<stauts>1</stauts>
 </xml>
 
 Message：消息体
