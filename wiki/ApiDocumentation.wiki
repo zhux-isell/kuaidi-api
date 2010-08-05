@@ -2,11 +2,11 @@
 
 = *Kuaidi100 API的使用说明* =
 
-h1. 版权
+=版权=
 
     Kuaidi100.com快递100网为金蝶友商旗下网站。本网站包含之所有内容：文本、图形、LOGO、创意及软件等之所有权归属youshang.com友商网及本网站的内容/信息提供者，受中国及国际版权法的保护。对本网站上所有内容之复制（包括收集、组合和重新组合），本网站享有排他权并受中国及国际版权法的保护。在本网站上的内容和软件可以用作信息获取网上交易及网上拍卖的信息资源，对本网站该等内容的任何其他使用，包括再造、修改、发布、转发、再版、演示或播出被严格禁止.
 
-h1. [认证方式|http://code.google.com/p/kuaidi-api/wiki/ApiDocumentation#认证方式]
+=[认证方式|http://code.google.com/p/kuaidi-api/wiki/ApiDocumentation#认证方式]=
 
    快递查询API提供了通过快递单号对常见快递公司的快递状况查询功能。
 调用本站API需要申请人先进行申请，并提供必要的信息（企业或个人基本信息，API调用应用场景和频度等）。通过申请后，获得身份key。身份key是使用本API的唯一授权码，请妥善保存。根据用户的应用场景，对指定身份key将授予相应的查询额度。
@@ -78,13 +78,13 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 show: (可选) 返回类型。目前本网站支持互联网上的4种通用合适，其中0：表示返回json字符串，1：表示返回xml对象，2：表示返回html对象，3：表示返回text文本。如果不填的话，默认返回json字符串
 muti: (可选) 显示格式。本网站提供显示一行还是多行的选择。返回结果全部按快递最近的状态进行排序，您可以选择一行或者多行记录。如果不填的话，默认返回多行值。
 
-h1. 返回值类型
+= 返回值类型=
 
   本返回值通过
 http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1,
 为例说明
 
-h2. Json返回示例：
+==Json返回示例：==
 {{{ 
 
 {"message":"","data":[{"time":"2010-08-04 02:26","context":"由【杭州集散】发往【湖州中转站】"},{"time":"2010-07-12 01:48","context":"【东莞集散】的收件员【企石线】已收件"},{"time":"2010-07-01 11:19","context":"【泰州海陵】的派件员【刘魁15850876697】正在派件"},{"time":"2010-06-27 09:59","context":"快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】"},{"time":"2010-06-27 09:45","context":"快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】"},{"time":"2010-05-22 18:58","context":"由【浦东分拨中心】发往【上海】"},{"time":"2010-05-21 21:12","context":"快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】"},{"time":"2010-04-25 21:45","context":"由【北京集散】发往【哈尔滨】"}],"stauts":1}
@@ -100,7 +100,7 @@ Context： 每条数据的状态
 
 Stauts： 结果状态，0，无查询结果，1，查询成功
 
-h2. xml返回示例：
+==xml返回示例：==
 {{{ 
 
 <xml>
@@ -152,34 +152,25 @@ Stauts： 结果状态，0，无查询结果，1，查询成功
 
 h2.
 
-h2. html返回示例：
+==html返回示例：==
 
 <table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-04 02:26</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【杭州集散】发往【湖州中转站】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-12 01:48</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【东莞集散】的收件员【企石线】已收件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-01 11:19</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【泰州海陵】的派件员【刘魁15850876697】正在派件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:59</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-22 18:58</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【浦东分拨中心】发往【上海】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-21 21:12</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-04-25 21:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【北京集散】发往【哈尔滨】</td></tr></table>
-h2. text返回示例：
+==text返回示例：==
 
+{{{ 
 2010-08-04 02:26 由【杭州集散】发往【湖州中转站】
-
 2010-07-12 01:48 【东莞集散】的收件员【企石线】已收件
-
 2010-07-01 11:19 【泰州海陵】的派件员【刘魁15850876697】正在派件
-
 2010-06-27 09:59 快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】
-
 2010-06-27 09:45 快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】
-
 2010-05-22 18:58 由【浦东分拨中心】发往【上海】
-
 2010-05-21 21:12 快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】
-
 2010-04-25 21:45 由【北京集散】发往【哈尔滨】
+}}}
 
-* *
+ =联系方式=
 
-h1. 联系方式
-
-* 服务邮箱：kuaidi@kingdee.com
-* 服务热线：4008-800-898
-* 传 真 号 ：4008-800-898 转 8
-* 公司地址：深圳市高新技术产业园南区科技南十二路2号金蝶软件园
-
-* *
+服务邮箱：kuaidi@kingdee.com
+服务热线：4008-800-898
+传 真 号 ：4008-800-898 转 8
+公司地址：深圳市高新技术产业园南区科技南十二路2号金蝶软件园
