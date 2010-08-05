@@ -176,3 +176,7 @@ h2.
 传 真 号 ：4008-800-898 转 8
 
 公司地址：深圳市高新技术产业园南区科技南十二路2号金蝶软件园
+
+WikiWordLink
+[http://domain/page label]
+http://domain/page
