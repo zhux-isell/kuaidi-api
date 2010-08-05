@@ -1,13 +1,426 @@
-#summary One-sentence summary of this page.
+#summary 本站api需要申请人想本站申请身份key，身份key是使用本api的唯一授权码，请妥善保存。目前每个 身份key 限制每小时只能同时查询1000条记录，否则拒绝服务。
 
-= Introduction =
+= Kuaidi100 API的使用说明* =
 
-Add your content here.
+h1. 版权
 
+Kuaidi100.com快递100网为金蝶友商旗下网站。本网站包含之所有内容：文本、图形、LOGO、创意及软件等之所有权归属youshang.com友商网及本网站的内容/信息提供者，受中国及国际版权法的保护。对本网站上所有内容之复制（包括收集、组合和重新组合），本网站享有排他权并受中国及国际版权法的保护。在本网站上的内容和软件可以用作信息获取网上交易及网上拍卖的信息资源，对本网站该等内容的任何其他使用，包括再造、修改、发布、转发、再版、演示或播出被严格禁止.
 
-= Details =
+h1. [认证方式|http://code.google.com/p/zuosa-api/wiki/ZuosaApiDoc#认证方式]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+本站api需要申请人想本站申请身份key，身份key是使用本api的唯一授权码，请妥善保存。目前每个 身份key 限制每小时只能同时查询1000条记录，否则拒绝服务。
+
+申请方式，请选择其一进行：
+
+服务邮箱：kuaidi@kingdee.com
+
+服务热线：4008-800-898
+
+传 真 号 ：4008-800-898 转 8
+
+申请通过之后，相关人员会发送 身份key授权，请保管好。
+
+h1. [搜索|http://code.google.com/p/zuosa-api/wiki/ZuosaApiDoc#搜索]
+
+URL:
+
+[http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0|1]|http://www.kuaidi100.com/api?id=%5b%5d&com=%5bcom%5d&nu=%5bnu%5d&show=%5b0|1|2%5d&muti=%5b0|1%5d]
+
+参数:
+
+id：（必填）身份key，为16位字母和数字的组合，请联系网站进行申请
+
+com: （必填）查询公司代码，不支持中文，目前支持本网站的不带验证码的51家快递公司，对应的公司代码如下，如有添加，请关注本网站的更新公告。
+
+快递公司代码
+
+公司名称
+
+aaakuaidi
+
+AAE全球专递
+
+anjiekuaidi
+
+安捷快递
+
+anxindakuaixi
+
+安信达快递
+
+biaojikuaidi
+
+彪记快递
+
+cces
+
+希伊艾斯快递
+
+changyuwuliu
+
+长宇物流
+
+datianwuliu
+
+大田物流
+
+debangwuliu
+
+德邦物流
+
+dhl
+
+DHL
+
+dsukuaidi
+
+D速快递
+
+fedex
+
+FedEx
+
+feikangda
+
+飞康达物流
+
+fenghuangkuaidi
+
+凤凰快递
+
+ganzhongnengda
+
+港中能达物流
+
+guangdongyouzhengwuliu
+
+广东邮政物流
+
+huitongkuaidi
+
+汇通快运
+
+jiayiwuliu
+
+佳怡物流
+
+jinguangsudikuaijian
+
+京广速递
+
+kuaijiesudi
+
+快捷速递
+
+lianhaowuliu
+
+联昊通物流
+
+longbanwuliu
+
+龙邦物流
+
+minghangkuaidi
+
+民航快递
+
+peisihuoyunkuaidi
+
+配思货运
+
+quanchenkuaidi
+
+全晨快递
+
+quanjitong
+
+全际通物流
+
+quanritongkuaidi
+
+全日通快递
+
+quanyikuaidi
+
+全一快递
+
+shenghuiwuliu
+
+盛辉物流
+
+suer
+
+速尔物流
+
+tiandihuayu
+
+天地华宇
+
+tiantian
+
+天天快递
+
+tnt
+
+TNT
+
+ups
+
+UPS
+
+wanjiawuliu
+
+万家物流
+
+wenjiesudi
+
+文捷航空速递
+
+xinbangwuliu
+
+新邦物流
+
+xinfengwuliu
+
+信丰物流
+
+xingchengjibian
+
+星晨急便
+
+xinhongyukuaidi
+
+鑫飞鸿物流快递
+
+yafengsudi
+
+亚风速递
+
+yibangwuliu
+
+一邦速递
+
+youshuwuliu
+
+优速物流
+
+yuanchengwuliu
+
+远成物流
+
+yuantong
+
+圆通速递
+
+yuanweifeng
+
+源伟丰快递
+
+yuanzhijiecheng
+
+元智捷诚快递
+
+yunda
+
+韵达快运
+
+zhaijisong
+
+宅急送
+
+zhongtiewuliu
+
+中铁快运
+
+zhongtong
+
+中通速递
+
+zhongyouwuliu
+
+中邮物流
+
+nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
+
+show: (可选) 返回类型。目前本网站支持互联网上的4种通用合适，其中0：表示返回json字符串，1：表示返回xml对象，2：表示返回html对象，3：表示返回text文本。如果不填的话，默认返回json字符串
+
+muti: (可选) 显示格式。本网站提供显示一行还是多行的选择。返回结果全部按快递最近的状态进行排序，您可以选择一行或者多行记录。如果不填的话，默认返回多行值。
+
+h1. 返回值类型
+
+本返回值通过
+
+[http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1],
+
+为例说明
+
+h2. Json返回示例：
+
+{"message":"","data":[{"time":"2010-08-04 02:26","context":"由【杭州集散】发往【湖州中转站】"},{"time":"2010-07-12 01:48","context":"【东莞集散】的收件员【企石线】已收件"},{"time":"2010-07-01 11:19","context":"【泰州海陵】的派件员【刘魁15850876697】正在派件"},{"time":"2010-06-27 09:59","context":"快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】"},{"time":"2010-06-27 09:45","context":"快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】"},{"time":"2010-05-22 18:58","context":"由【浦东分拨中心】发往【上海】"},{"time":"2010-05-21 21:12","context":"快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】"},{"time":"2010-04-25 21:45","context":"由【北京集散】发往【哈尔滨】"}],"stauts":1}
+
+Message：消息体
+
+Data ： 数据集合
+
+Time：每条数据的时间
+
+Context： 每条数据的状态
+
+Stauts： 结果状态，0，无查询结果，1，查询成功
+
+h2. xml返回示例：
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <xml>
+
+<message />
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-08-04 02:26</time>
+
+<context>由【杭州集散】发往【湖州中转站】</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-07-12 01:48</time>
+
+<context>【东莞集散】的收件员【企石线】已收件</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-07-01 11:19</time>
+
+<context>【泰州海陵】的派件员【刘魁15850876697】正在派件</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-06-27 09:59</time>
+
+<context>快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-06-27 09:45</time>
+
+<context>快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-05-22 18:58</time>
+
+<context>由【浦东分拨中心】发往【上海】</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-05-21 21:12</time>
+
+<context>快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】</context>
+
+</data>
+
+[*-*|http://localhost/api?id=a2sokwu0f0209d33&com=tiantian&nu=11111&show=1&muti=1] <data>
+
+<time>2010-04-25 21:45</time>
+
+<context>由【北京集散】发往【哈尔滨】</context>
+
+</data>
+
+<stauts>1</stauts>
+
+</xml>
+
+Message：消息体
+
+Data ： 数据集合
+
+Time：每条数据的时间
+
+Context： 每条数据的状态
+
+Stauts： 结果状态，0，无查询结果，1，查询成功
+
+h2.
+
+h2. html返回示例：
+
+*时间*
+
+*地点和跟踪进度*
+
+2010-08-04 02:26
+
+由【杭州集散】发往【湖州中转站】
+
+2010-07-12 01:48
+
+【东莞集散】的收件员【企石线】已收件
+
+2010-07-01 11:19
+
+【泰州海陵】的派件员【刘魁15850876697】正在派件
+
+2010-06-27 09:59
+
+快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】
+
+2010-06-27 09:45
+
+快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】
+
+2010-05-22 18:58
+
+由【浦东分拨中心】发往【上海】
+
+2010-05-21 21:12
+
+快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】
+
+2010-04-25 21:45
+
+由【北京集散】发往【哈尔滨】
+
+* *
+
+* *
+
+h2. text返回示例：
+
+2010-08-04 02:26 由【杭州集散】发往【湖州中转站】
+
+2010-07-12 01:48 【东莞集散】的收件员【企石线】已收件
+
+2010-07-01 11:19 【泰州海陵】的派件员【刘魁15850876697】正在派件
+
+2010-06-27 09:59 快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】
+
+2010-06-27 09:45 快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】
+
+2010-05-22 18:58 由【浦东分拨中心】发往【上海】
+
+2010-05-21 21:12 快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】
+
+2010-04-25 21:45 由【北京集散】发往【哈尔滨】
+
+* *
+
+h1. 联系方式
+
+* 服务邮箱：kuaidi@kingdee.com
+* 服务热线：4008-800-898
+* 传 真 号 ：4008-800-898 转 8
+* 公司地址：深圳市高新技术产业园南区科技南十二路2号金蝶软件园
+
+* *
