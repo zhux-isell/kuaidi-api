@@ -154,46 +154,7 @@ h2.
 
 h2. html返回示例：
 
-*时间*
-
-*地点和跟踪进度*
-
-2010-08-04 02:26
-
-由【杭州集散】发往【湖州中转站】
-
-2010-07-12 01:48
-
-【东莞集散】的收件员【企石线】已收件
-
-2010-07-01 11:19
-
-【泰州海陵】的派件员【刘魁15850876697】正在派件
-
-2010-06-27 09:59
-
-快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】
-
-2010-06-27 09:45
-
-快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】
-
-2010-05-22 18:58
-
-由【浦东分拨中心】发往【上海】
-
-2010-05-21 21:12
-
-快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】
-
-2010-04-25 21:45
-
-由【北京集散】发往【哈尔滨】
-
-* *
-
-* *
-
+<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-04 02:26</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【杭州集散】发往【湖州中转站】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-12 01:48</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【东莞集散】的收件员【企石线】已收件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-01 11:19</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【泰州海陵】的派件员【刘魁15850876697】正在派件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:59</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-22 18:58</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【浦东分拨中心】发往【上海】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-21 21:12</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-04-25 21:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【北京集散】发往【哈尔滨】</td></tr></table>
 h2. text返回示例：
 
 2010-08-04 02:26 由【杭州集散】发往【湖州中转站】
