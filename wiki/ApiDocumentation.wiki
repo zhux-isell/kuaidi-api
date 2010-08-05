@@ -27,8 +27,7 @@ URL:
 ||biaojikuaidi||彪记快递||
 ||cces||希伊艾斯快递||
 ||changyuwuliu||长宇物流||
-||datianwuliu||
-||大田物流||
+||datianwuliu||||大田物流||
 ||debangwuliu||德邦物流||
 ||dhl||DHL||
 ||dsukuaidi||D速快递||
