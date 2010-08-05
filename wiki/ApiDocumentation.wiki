@@ -41,7 +41,7 @@ URL:
 ||debangwuliu||德邦物流||
 ||dhl||DHL||
 ||dsukuaidi||D速快递||
-||fedex||FedEx||
+||fedex||fedex||
 ||feikangda||飞康达物流||
 ||fenghuangkuaidi||凤凰快递||
 ||ganzhongnengda||港中能达物流||
@@ -92,7 +92,7 @@ h1. 返回值类型
 
 本返回值通过
 
-[http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1],
+http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1,
 
 为例说明
 
