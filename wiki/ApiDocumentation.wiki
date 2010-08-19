@@ -34,11 +34,14 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||aae||AAE全球专递||
 ||anjiekuaidi||安捷快递||
 ||anxindakuaixi||安信达快递||
+||baifudongfang||百福东方||
 ||biaojikuaidi||彪记快递||
+||bht||BHT||
 ||cces||希伊艾斯快递||
 ||changyuwuliu||长宇物流||
 ||datianwuliu||||大田物流||
 ||debangwuliu||德邦物流||
+||dpex||DPEX||
 ||dhl||DHL||
 ||dsukuaidi||D速快递||
 ||fedex||fedex||
@@ -48,7 +51,8 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||guangdongyouzhengwuliu||广东邮政物流||
 ||huitongkuaidi||汇通快运||
 ||jiayiwuliu||佳怡物流||
-||jinguangsudikuaijian||京广速递||
+||jinguangsudikuaijian||京广速递||'
+||jixianda||急先达||
 ||kuaijiesudi||快捷速递||
 ||lianhaowuliu||联昊通物流||
 ||longbanwuliu||龙邦物流||
@@ -66,6 +70,7 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||ups||UPS||
 ||wanjiawuliu||万家物流||
 ||wenjiesudi||文捷航空速递||
+||wuyuansudi||伍圆速递||
 ||xinbangwuliu||新邦物流||
 ||xinfengwuliu||信丰物流||
 ||xingchengjibian||星晨急便||
@@ -77,6 +82,7 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||yuantong||圆通速递||
 ||yuanweifeng||源伟丰快递||
 ||yuanzhijiecheng||元智捷诚快递||
+||yuefengwuliu||越丰物流||
 ||yunda||韵达快运||
 ||zhaijisong||宅急送||
 ||zhongtiewuliu||中铁快运||
