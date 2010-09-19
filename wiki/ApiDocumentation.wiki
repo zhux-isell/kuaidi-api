@@ -175,7 +175,7 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 
 
 ==chaxun URL结果显示：==
-<img href='http://hiphotos.baidu.com/kuaidi100/abpic/item/a3dac0564546034a0cf3e3bf.jpg' >
+[http://www.kuaidi100.com/ http://hiphotos.baidu.com/kuaidi100/abpic/item/a3dac0564546034a0cf3e3bf.jpg]
 
 = api URL 返回值类型=
 
