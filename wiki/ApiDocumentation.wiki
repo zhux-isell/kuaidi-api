@@ -54,7 +54,7 @@ URL:{{{http://www.kuaidi100.com/apione? com=[]&nu=[]&show=[0|1|2] }}}
 ||cces，希伊艾斯||希伊艾斯快递||
 ||Coe，中国东方||中国东方（COE）||
 ||changyuwuliu，长宇，cy，changyu||长宇物流||
-||datianwuliu,datian,dt||大田, 大田物流||大田物流||
+||datianwuliu,datian,dt,大田, 大田物流||大田物流||
 ||debangwuliu，dabang，db，德邦||德邦物流||
 ||dhl||dhl||
 ||dpex||dpex||
