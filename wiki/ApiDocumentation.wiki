@@ -9,11 +9,12 @@
    Kuaidi100.com快递100网对本网站上所有内容包括但不限于网站运营或本网站上的信息、内容、材料或产品，不提供明示或暗示的担保。由所适用法律许可，快递100网否认所有明示或暗示的担保，包括但不限于为特定目的做的商务暗示担保。快递100网对任何损失或任何由于使用或不能使用本网站而引起的损失，包括但不限于直接的，间接的，偶然的、惩罚性的和引发的损失，不承担责任。
 
 =API使用特色=
-    快递100提供的API支持快递公司模糊匹配，能快速的满足快递查询相关的开发需求，同时也能用于微博等轻量级的开发。
-     快递查询API分为两种接口：
-     chaxun URL  直接显示查询结果，支持快递公司模糊匹配。 
-     api URL  能返回多种格式的查询结果，具备众多参数供调用。（需通过key验证）
-     如有任何问题请及时与我们联络（kuaidi@kingdee.com），如有成功应用也可以提供一些截图做应用的公开示例，我们可以协助进行推广。
+   	快递100提供的API支持快递公司模糊匹配，能快速的满足快递查询相关的开发需求，同时也能用于微博等轻量级的开发。
+	快递查询API分为三种接口：
+Chaxun URL  直接显示查询结果，支持快递公司模糊匹配。 
+	API URL  能返回多种格式的查询结果，具备众多参数供调用。（需通过key验证）
+APIONE  URL  能返回多种格式的查询结果，具备众多参数供调用，仅返回一条查询结果和回调URL。（不需通过key验证）
+       如有任何问题请及时与我们联络（kuaidi@kingdee.com），如有成功应用也可以提供一些截图做应用的公开示例，我们可以协助进行推广。
 
 
 =认证方式=
@@ -24,17 +25,23 @@
 
 
 =快递查询接口=
-  快递100提供的快递查询API通过2种接口URL来实现，如下：
+  快递100提供的快递查询API通过3种接口URL来实现，如下：
 ==1、chaxun URL==
 URL:{{{http://kuaidi100.com/chaxun?com=[]&nu=[] }}}
    简单传入快递公司和快递单号参数，即可得到查询结果。支持快递公司模糊匹配，目前涵盖本网站的所有快递公司。对应的公司代码如表1，如有添加，请关注本网站的更新公告
 
 ==2、api URL==  
-URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0|1] }}}
+URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0|1]&order=[desc|asc] }}}
 
    支持多种参数供调用，包括快递公司、快递单号、显示类型、格式等，详见参数说明。查询时传入公司代码（暂不支持中文），目前支持本网站的不带验证码的51家快递公司，对应的公司代码如表2，如有添加，请关注本网站的更新公告 
 
-==chaxun URL 的参数说明==
+==3、api One URL==  
+URL:{{{http://www.kuaidi100.com/apione? com=[]&nu=[]&show=[0|1|2] }}}
+
+
+=快递查询接口参数说明=
+
+==1、chaxun URL 的参数说明==
    com: （必填）查询公司代码，支持中文和模糊输入（大小不敏感），目前支持本网站的所有的快递公司，对应的公司代码如下，如有添加，请关注本网站的更新公告。
 ||*模糊输入*||*公司名称*||
 ||aae, aae专递||aae全球专递||
@@ -44,11 +51,11 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||bht||bht||
 ||baifudongfang，百福东方，百福，bfdf||百福东方国际物流||
 ||cces，希伊艾斯||希伊艾斯快递||
+||Coe，中国东方||中国东方（COE）||
 ||changyuwuliu，长宇，cy，changyu||长宇物流||
 ||datianwuliu,datian,dt||
 ||大田, 大田物流||大田物流||
-||debangwuliu，dabang，db，||
-||德邦||德邦物流||
+||debangwuliu，dabang，db，德邦||德邦物流||
 ||dhl||dhl||
 ||dpex||dpex||
 ||dsukuaidi，ds，dsu，d速||d速快递||
@@ -59,13 +66,17 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||ganzhongnengda，nengda，能达，港中||港中能达物流||
 ||guangdongyouzhengwuliu，广东邮政，gdyz||广东邮政物流||
 ||huitongkuaidi，huitong，汇通，ht||汇通快运||
+||hengluwuliu,henglu，hl，恒路，恒路物流||恒路物流||
+||huaxialongwuliu，hxl，华夏龙物流，华夏龙，huaxialong||华夏龙物流||
 ||jiayiwuliu，佳怡，jy，佳怡快递||佳怡物流||
 ||jinguangsudikuaijian，jingguang，京广||京广速递||
 ||jixinda，jxd，急先达||急先达||
+||jindawuliu，jinda，金大，金大物流||金大物流||
 ||kuaijiesudi，快捷，kj，kuaijie||快捷速递||
 ||lianhaowuliu，lht，lianhaotong，联昊通||联昊通物流||
 ||longbanwuliu，longbang，lb，龙邦||龙邦物流||
 ||minghangkuaidi，民航，mh，minghang||民航快递||
+||Nanjing100，nanjing，nj，南京100，南京100快递||南京100快递||
 ||peisihuoyunkuaidi，ps，配思，peisi||配思货运||
 ||quanchenkuaidi，quanchen，qc，全晨||全晨快递||
 ||quanjitong，qjt，quanjitong||全际通物流||
@@ -96,13 +107,15 @@ URL:{{{http://www.kuaidi100.com/api?id=[]&com=[com]&nu=[nu]&show=[0|1|2]&muti=[0
 ||yuanweifeng，ywf，源伟丰||源伟丰快递||
 ||yuanzhijiecheng，yuanzhi，yzjc，元智||元智捷诚快递||
 ||yunda，yd，韵达||韵达快运||
+||yuntongkuaidi,yuntong, 运通,运通快递||运通快递||
+||yuefengwuliu,yuefeng,越丰,越丰物流||越丰物流||
 ||zhaijisong，zjs，宅急送||宅急送||
 ||zhongtiewuliu，zhongtie，中铁||中铁快运||
 ||zhongtong，zt，中通||中通速递||
 ||zhongyouwuliu，zhongyou，zy||中邮物流||
 nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 
-==api URL 的参数说明==
+==2、api URL 的参数说明==
   id：（必填）身份key，为16位字母和数字的组合，请联系网站进行申请
 
   com: （必填）查询公司代码，不支持中文，目前支持本网站的不带验证码的51家快递公司，对应的公司代码如下，如有添加，请关注本网站的更新公告。
@@ -115,6 +128,7 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 ||biaojikuaidi||彪记快递||
 ||bht||BHT||
 ||cces||希伊艾斯快递||
+||Coe||中国东方（COE）||
 ||changyuwuliu||长宇物流||
 ||datianwuliu||||大田物流||
 ||debangwuliu||德邦物流||
@@ -127,6 +141,8 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 ||ganzhongnengda||港中能达物流||
 ||guangdongyouzhengwuliu||广东邮政物流||
 ||huitongkuaidi||汇通快运||
+||hengluwuliu||恒路物流||
+||huaxialongwuliu||华夏龙物流||
 ||jiayiwuliu||佳怡物流||
 ||jinguangsudikuaijian||京广速递||'
 ||jixianda||急先达||
@@ -161,6 +177,7 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
 ||yuanzhijiecheng||元智捷诚快递||
 ||yuefengwuliu||越丰物流||
 ||yunda||韵达快运||
+||Yuntongkuaidi||运通快递||
 ||zhaijisong||宅急送||
 ||zhongtiewuliu||中铁快运||
 ||zhongtong||中通速递||
@@ -172,15 +189,23 @@ nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
   show: (可选) 返回类型。目前本网站支持互联网上的4种通用合适，其中0：表示返回json字符串，1：表示返回xml对象，2：表示返回html对象，3：表示返回text文本。如果不填的话，默认返回json字符串
 
   muti: (可选) 显示格式。本网站提供显示一行还是多行的选择。返回结果全部按快递最近的状态进行排序，您可以选择一行或者多行记录。如果不填的话，默认返回多行值。
+  Order：(可选) 排序。本网站提供倒序和顺序显示。如果不填的话，默认返回倒序。
+
+==3、APIOne  URL 的参数说明==
+
+   com: （必填）查询公司代码（大小不敏感），不支持中文，目前支持本网站的不带验证码的54家快递公司。APIOne  URL对应的公司代码表请参见API URL的公司代码列表。
+   nu: （必填）查询快递的单号，请勿带特殊符号，不支持中文
+   show: (可选) 返回类型。目前本网站支持互联网上的4种通用合适，其中0：表示返回json字符串，1：表示返回xml对象，2：表示返回html对象，3：表示返回text文本。如果不填的话，默认返回json字符串。
 
 
-==chaxun URL结果显示：==
+
+=chaxun URL结果显示：=
 [http://www.kuaidi100.com/ http://lh4.ggpht.com/_qDdZVasNZ5o/TJXN9su8PYI/AAAAAAAAAA8/Eurv9dN438c/s128/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg]
 
 = api URL 返回值类型=
 
   本返回值通过
-http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1,
+http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc,
 为例说明
 
 ==Json返回示例：==
@@ -266,6 +291,76 @@ h2.
 2010-05-21 21:12 快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】
 2010-04-25 21:45 由【北京集散】发往【哈尔滨】
 }}}
+
+
+
+= apione URL 返回值类型=
+
+  本返回值通过
+http://www.kuaidi100.com/apione?com=tiantian&nu=11111&show=0,
+为例说明
+
+==Json返回示例：==
+{{{ 
+
+{"message":"更多信息，请访问 快递100。","status":"1","link":"http://kuaidi100.com/chaxun?com=tiantian&nu=11111","data":[{"time":"2010-08-30 11:10","context":"已签收,签收人是【邮件签收章】"}]}
+}}}
+
+Message：消息体
+
+Data ： 数据集合
+
+Time：每条数据的时间
+
+Context： 每条数据的状态
+
+status： 结果状态，0，无查询结果，1，查询成功
+
+link：查询的回调地址
+
+==xml返回示例：==
+{{{ 
+
+- <xml>
+  <message>更多信息，请访问 快递100。</message> 
+  <status>1</status> 
+  <link>http://kuaidi100.com/chaxun?com=tiantian&nu=11111</link> 
+- <data>
+  <time>2010-08-30 11:10</time> 
+  <context>已签收,签收人是【邮件签收章】</context> 
+  </data>
+  </xml>
+
+}}}
+Message：消息体
+
+Data ： 数据集合
+
+Time：每条数据的时间
+
+Context： 每条数据的状态
+
+status： 结果状态，0，无查询结果，1，查询成功
+link：查询的回调地址
+
+
+h2.
+
+==html返回示例：==
+
+<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-30 11:10</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>已签收,签收人是【邮件签收章】</td></tr><tr><td  style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;' colspan='2' align='center'><a href='http://kuaidi100.com/chaxun?com=tiantian&nu=11111' target='_blank'>更多信息，请访问 快递100</a></td></tr></table>
+
+==text返回示例：==
+
+{{{ 
+2010-08-30 11:10 已签收,签收人是【邮件签收章】; 
+更多信息，请访问 快递100,网址是http://kuaidi100.com/chaxun?com=tiantian&nu=11111
+}}}
+
+
+
+
+
 
  =联系方式=
 
