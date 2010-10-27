@@ -1,6 +1,6 @@
 = 样式: =
 
- http://www.kuaidi100.com/api?id=[]&com=[]&nu=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
+ http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
 = 说明： =
   支持多种参数供调用，包括快递公司、快递单号、显示类型、格式、排序等，详见参数说明。查询时传入公司代码（暂不支持中文），目前支持本网站的不带验证码的54家快递公司，对应的公司代码如表2，如有添加，请关注本网站的更新公告。。
 
@@ -88,7 +88,7 @@
 = 返回结果：=
 
     本返回值通过
-http://www.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc,
+http://api.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc,
 为例说明
 
 ==Json返回示例：==
