@@ -1,6 +1,6 @@
 = 样式: =
 
- http://kuaidi100.com/chaxun?com=[]&nu=[] 
+ http://api.kuaidi100.com/chaxun?com=[]&nu=[] 
 
 = 说明： =
 
@@ -94,7 +94,5 @@
         如图1。
 
 [http://www.kuaidi100.com/ http://lh4.ggpht.com/_qDdZVasNZ5o/TJXN9su8PYI/AAAAAAAAAA8/Eurv9dN438c/s128/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg]
-
-
 
 
