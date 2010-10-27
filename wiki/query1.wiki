@@ -1,0 +1,100 @@
+= 样式: =
+
+ http://kuaidi100.com/chaxun?com=[]&nu=[] 
+
+= 说明： =
+
+    简单传入快递公司和快递单号参数，即可得到查询结果。支持快递公司模糊匹配，目前涵盖本网站的所有快递公司。对应的公司代码如表1，如有添加，请关注本网站的更新公告。
+
+
+= API用户授权类型：=
+    不需要.
+
+
+= 参数说明：=
+||*名称*||*类型*||*是否必需*||*	描述*||
+||com||String||是||查询公司代码，支持中文和模糊输入（大小不敏感），目前支持本网站的所有的快递公司。对应的公司代码如表1，如有添加，请关注本网站的更新公告||
+||nu||String||是	||查询快递的单号，请勿带特殊符号，不支持中文||
+
+==表1：Chaxun URL 快递公司参数说明==
+
+||*模糊输入*||*公司名称*||
+||aae, aae专递||aae全球专递||
+||anjie,aj,安捷，安捷快递||安捷快递||
+||anxindakuaixi，anxinda，axd，安信达||安信达快递||
+||biaojikuaidi，彪记，bj，biaoji||彪记快递||
+||bht||bht||
+||baifudongfang，百福东方，百福，bfdf||百福东方国际物流||
+||cces，希伊艾斯||希伊艾斯快递||
+||Coe，中国东方||中国东方（COE）||
+||changyuwuliu，长宇，cy，changyu||长宇物流||
+||datianwuliu,datian,dt,大田, 大田物流||大田物流||
+||debangwuliu，dabang，db，德邦||德邦物流||
+||dhl||dhl||
+||dpex||dpex||
+||dsukuaidi，ds，dsu，d速||d速快递||
+||ems||ems||
+||fedex，联邦，联邦快递||fedex||
+||feikangda，fkd，飞康达||飞康达物流||
+||fenghuangkuaidi，fh，凤凰||凤凰快递||
+||ganzhongnengda，nengda，能达，港中||港中能达物流||
+||guangdongyouzhengwuliu，广东邮政，gdyz||广东邮政物流||
+||huitongkuaidi，huitong，汇通，ht||汇通快运||
+||hengluwuliu,henglu，hl，恒路，恒路物流||恒路物流||
+||huaxialongwuliu，hxl，华夏龙物流，华夏龙，huaxialong||华夏龙物流||
+||jiayiwuliu，佳怡，jy，佳怡快递||佳怡物流||
+||jinguangsudikuaijian，jingguang，京广||京广速递||
+||jixinda，jxd，急先达||急先达||
+||jindawuliu，jinda，金大，金大物流||金大物流||
+||kuaijiesudi，快捷，kj，kuaijie||快捷速递||
+||lianhaowuliu，lht，lianhaotong，联昊通||联昊通物流||
+||longbanwuliu，longbang，lb，龙邦||龙邦物流||
+||minghangkuaidi，民航，mh，minghang||民航快递||
+||Nanjing100，nanjing，nj，南京100，南京100快递||南京100快递||
+||peisihuoyunkuaidi，ps，配思，peisi||配思货运||
+||quanchenkuaidi，quanchen，qc，全晨||全晨快递||
+||quanjitong，qjt，quanjitong||全际通物流||
+||quanritongkuaidi，quanritong，qrt，全日通||全日通快递||
+||quanyikuaidi，quanyi，qy，全一||全一快递||
+||shenghuiwuliu，shenghui，sf，盛辉||盛辉物流||
+||shentong，st，申通||申通||
+||shunfeng，sf，顺丰||顺丰||
+||suer，se，速尔||速尔物流||
+||tiandihuayu，tiandi，huayu，tdhy，天地||天地华宇||
+||tiantian，tt，天天，||天天快递||
+||tnt||tnt||
+||ups||ups||
+||wanjiawuliu，wanjia，wanjia||万家物流||
+||wenjiesudi，wenjie，文捷，||文捷航空速递||
+||wuyuan，wy，伍圆，||伍圆||
+||xinbangwuliu，xinbang，新邦||新邦物流||
+||xinfengwuliu，xinfeng，xf，信丰||信丰物流||
+||xingchengjibian，xcjb，星晨||星晨急便||
+||xinhongyukuaidi，xfh，鑫飞鸿||鑫飞鸿物流快递||
+||yafengsudi，yafeng，亚风||亚风速递||
+||yibangwuliu，yibang，一邦，||一邦速递||
+||youshuwuliu，youshu，优速||优速物流||
+||youzhengguonei，邮政国内，包裹，挂号信||邮政包裹挂号信||
+||youzhengguoji，邮政国际||邮政国际包裹挂号信||
+||yuanchengwuliu，yuancheng，远成||远成物流||
+||yuantong，yt，圆通||圆通速递||
+||yuanweifeng，ywf，源伟丰||源伟丰快递||
+||yuanzhijiecheng，yuanzhi，yzjc，元智||元智捷诚快递||
+||yunda，yd，韵达||韵达快运||
+||yuntongkuaidi,yuntong, 运通,运通快递||运通快递||
+||yuefengwuliu,yuefeng,越丰,越丰物流||越丰物流||
+||zhaijisong，zjs，宅急送||宅急送||
+||zhongtiewuliu，zhongtie，中铁||中铁快运||
+||zhongtong，zt，中通||中通速递||
+||zhongyouwuliu，zhongyou，zy||中邮物流||
+
+= 返回结果：=
+
+     直接跳转到查询页面，若无验证码，直接查询结果，若有，则光标驻留验证码出。
+        如图1。
+
+[http://www.kuaidi100.com/ http://lh4.ggpht.com/_qDdZVasNZ5o/TJXN9su8PYI/AAAAAAAAAA8/Eurv9dN438c/s128/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg]
+
+
+
+
