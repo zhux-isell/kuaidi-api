@@ -71,7 +71,7 @@
 ||wanjiawuliu，wanjia，wanjia||万家物流||
 ||wenjiesudi，wenjie，文捷，||文捷航空速递||
 ||wuyuan，wy，伍圆，||伍圆||
-||wxwl,万象,wx,wanxiang||万象物流|
+||wxwl,万象,wx,wanxiang||万象物流||
 ||xinbangwuliu，xinbang，新邦||新邦物流||
 ||xinfengwuliu，xinfeng，xf，信丰||信丰物流||
 ||xingchengjibian，xcjb，星晨||星晨急便||
