@@ -89,7 +89,7 @@
 
     本返回值通过
 http://api.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc,
-为例说明
+为例说明【佳吉物流请加 &valicode=[电话号码]】
 
 ==Json返回示例：==
 {{{ 
