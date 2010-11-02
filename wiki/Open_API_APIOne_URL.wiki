@@ -16,6 +16,7 @@
 
 ==表2：ApiOne URL 快递公司参数说明==
 
+
 || *快递公司代码* || *公司名称* ||
 ||aae||AAE全球专递||
 ||anjiekuaidi||安捷快递||
@@ -42,6 +43,9 @@
 ||jiayiwuliu||佳怡物流||
 ||jinguangsudikuaijian||京广速递||'
 ||jixianda||急先达||
+||jiajiwuliu||佳吉快运||
+||jingpinkuaidi||京品快递||
+||jiayinmeiwuliu||加运美速递||
 ||kuaijiesudi||快捷速递||
 ||lianhaowuliu||联昊通物流||
 ||longbanwuliu||龙邦物流||
@@ -53,6 +57,7 @@
 ||quanyikuaidi||全一快递||
 ||shenghuiwuliu||盛辉物流||
 ||suer||速尔物流||
+||shengfengwuliu||盛丰物流||
 ||tiandihuayu||天地华宇||
 ||tiantian||天天快递||
 ||tnt||TNT||
@@ -73,6 +78,8 @@
 ||yuanzhijiecheng||元智捷诚快递||
 ||yuefengwuliu||越丰物流||
 ||yunda||韵达快运||
+||yuanfeihangwuliu||原飞航物流||
+||yuananda||源安达快递||
 ||Yuntongkuaidi||运通快递||
 ||zhaijisong||宅急送||
 ||zhongtiewuliu||中铁快运||
