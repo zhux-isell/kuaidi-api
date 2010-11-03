@@ -44,7 +44,7 @@
 ||jiayiwuliu||佳怡物流||
 ||jinguangsudikuaijian||京广速递||'
 ||jixianda||急先达||
-||jiajiwuliu||佳吉||
+||jiajiwuliu||佳吉物流||
 ||jiayinmeiwuliu||加运美||
 ||kuaijiesudi||快捷速递||
 ||lianhaowuliu||联昊通物流||
@@ -65,7 +65,7 @@
 ||wanjiawuliu||万家物流||
 ||wenjiesudi||文捷航空速递||
 ||wuyuansudi||伍圆速递||
-||wanxiangwuliu||万象||
+||wanxiangwuliu||万象物流||
 ||xinbangwuliu||新邦物流||
 ||xinfengwuliu||信丰物流||
 ||xingchengjibian||星晨急便||
