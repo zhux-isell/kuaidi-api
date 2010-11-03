@@ -70,7 +70,7 @@
 ||wanjiawuliu||万家物流||
 ||wenjiesudi||文捷航空速递||
 ||wuyuansudi||伍圆速递||
-||wanxiangwuliu||万象||
+||wanxiangwuliu||万象物流||
 ||xinbangwuliu||新邦物流||
 ||xinfengwuliu||信丰物流||
 ||xingchengjibian||星晨急便||
