@@ -152,3 +152,7 @@ h2.
 
 =本文档下载地址：=
 [http://kuaidi-api.googlecode.com/files/kuaidi100api.zip 下载地址]
+
+=php 使用案例：=
+
+[http://code.google.com/p/kuaidi-api/wiki/Open_API_Articles_PHP php使用案例]
