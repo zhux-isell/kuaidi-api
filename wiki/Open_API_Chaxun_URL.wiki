@@ -47,7 +47,7 @@
 ||jinguangsudikuaijian，jingguang，京广||京广速递||
 ||jixinda，jxd，急先达||急先达||
 ||jjwl,jiaji,jj,佳吉||佳吉物流||
-||jymwl,加印美,jiayinmei,jym||加印美物流||
+||jymwl,加运美,jiayunmei,jym||加运美物流||
 ||jindawuliu，jinda，金大，金大物流||金大物流||
 ||kuaijiesudi，快捷，kj，kuaijie||快捷速递||
 ||lianhaowuliu，lht，lianhaotong，联昊通||联昊通物流||
