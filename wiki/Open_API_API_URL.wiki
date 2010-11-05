@@ -50,7 +50,7 @@
 ||jinguangsudikuaijian||京广速递||'
 ||jixianda||急先达||
 ||jiajiwuliu||佳吉物流||
-||jiayinmeiwuliu||加运美||
+||jiayunmeiwuliu||加运美||
 ||kuaijiesudi||快捷速递||
 ||lianhaowuliu||联昊通物流||
 ||longbanwuliu||龙邦物流||
