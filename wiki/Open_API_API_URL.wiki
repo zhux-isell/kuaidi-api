@@ -85,7 +85,7 @@
 ||yuefengwuliu||越丰物流||
 ||yunda||韵达快运||
 ||yuananda||源安达||
-||Yuntongkuaidi||运通快递||
+||yuntongkuaidi||运通快递||
 ||zhaijisong||宅急送||
 ||zhongtiewuliu||中铁快运||
 ||zhongtong||中通速递||
