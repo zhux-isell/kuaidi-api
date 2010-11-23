@@ -31,7 +31,9 @@
    快递查询API提供了通过快递单号对常见快递公司的快递状况查询功能。
 
    调用本站API需要申请人先进行申请，并提供必要的信息（企业或个人基本信息，API调用应用场景和频度等）。通过申请后，获得身份key。身份key是使用本API的唯一授权码，请妥善保存。根据用户的应用场景，对指定身份key将授予相应的查询额度。
+
    申请邮箱：kuaidi@kingdee.com
+
    身份key申请地址 [http://kuaidi100.com/app/reg.html  http://kuaidi100.com/app/reg.html]
 
 
