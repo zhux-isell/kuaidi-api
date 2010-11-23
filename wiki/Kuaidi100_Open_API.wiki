@@ -36,7 +36,8 @@
 
    身份key申请地址 [http://kuaidi100.com/app/reg.html  http://kuaidi100.com/app/reg.html]
 
-
+=API调用示例=
+   kuaidi100.com API调用处理json数据的方法之一： [http://code.google.com/p/kuaidi-api/wiki/Open_API_Articles_PHP php调用示例]
 
 =本文档下载地址：=
 [http://kuaidi-api.googlecode.com/files/kuaidi100api.zip 下载地址]
