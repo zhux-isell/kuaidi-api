@@ -6,7 +6,7 @@ kuaidi100 api 调用处理json数据的方法1 —— php调用示例
 
 Kuaidi100 Api involve dealing with  json for php 
 
-本文档由快递100技术群：快乐团  提供
+本文档由快递100技术群：[http://www.kuaile-tuan.com/ 快乐团]  提供
 
 = 使用方法 =
 
