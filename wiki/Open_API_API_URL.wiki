@@ -31,7 +31,7 @@
 ||biaojikuaidi||彪记快递||
 ||bht||BHT||
 ||cces||希伊艾斯快递||
-||Coe||中国东方（COE）||
+||coe||中国东方（COE）||
 ||changyuwuliu||长宇物流||
 ||datianwuliu||||大田物流||
 ||debangwuliu||德邦物流||
@@ -44,6 +44,7 @@
 ||fenghuangkuaidi||凤凰快递||
 ||ganzhongnengda||港中能达物流||
 ||guangdongyouzhengwuliu||广东邮政物流||
+||gls||GLS快递||
 ||huitongkuaidi||汇通快运||
 ||hengluwuliu||恒路物流||
 ||huaxialongwuliu||华夏龙物流||
@@ -55,6 +56,7 @@
 ||kuaijiesudi||快捷速递||
 ||lianhaowuliu||联昊通物流||
 ||longbanwuliu||龙邦物流||
+||lanbiaokuaidi||蓝镖快递||
 ||minghangkuaidi||民航快递||
 ||peisihuoyunkuaidi||配思货运||
 ||quanchenkuaidi||全晨快递||
@@ -66,6 +68,7 @@
 ||shenghuiwuliu||盛辉物流||
 ||suer||速尔物流||
 ||shengfengwuliu||盛丰物流||
+||shangda||上大物流||
 ||tiandihuayu||天地华宇||
 ||tiantian||天天快递||
 ||tnt||TNT||
@@ -88,6 +91,7 @@
 ||yuefengwuliu||越丰物流||
 ||yunda||韵达快运||
 ||yuananda||源安达||
+||yuanfeihangwuliu||原飞航物流||
 ||yuntongkuaidi||运通快递||
 ||zhaijisong||宅急送||
 ||zhongtiewuliu||中铁快运||
