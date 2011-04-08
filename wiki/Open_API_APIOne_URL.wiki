@@ -99,7 +99,7 @@ http://api.kuaidi100.com/apione?com=tiantian&nu=11111&show=0,
 ==Json返回示例：==
 {{{ 
 
-{"message":"更多信息，请访问 快递100。","status":"1","link":"http://kuaidi100.com/chaxun?com=tiantian&nu=11111","data":[{"time":"2010-08-30 11:10","context":"已签收,签收人是【邮件签收章】"}]}
+{"message":"更多信息，请访问 友商快递100。","status":"1","link":"http://kuaidi100.com/chaxun?com=tiantian&nu=11111","data":[{"time":"2010-08-30 11:10","context":"已签收,签收人是【邮件签收章】"}]}
 }}}
 
 Message：消息体
@@ -118,7 +118,7 @@ link：查询的回调地址
 {{{ 
 
 - <xml>
-  <message>更多信息，请访问 快递100。</message> 
+  <message>更多信息，请访问 友商快递100。</message> 
   <status>1</status> 
   <link>http://kuaidi100.com/chaxun?com=tiantian&nu=11111</link> 
 - <data>
@@ -149,7 +149,7 @@ link：查询的回调地址
 
 {{{ 
 2010-08-30 11:10 已签收,签收人是【邮件签收章】; 
-更多信息，请访问 快递100,网址是http://kuaidi100.com/chaxun?com=tiantian&nu=11111
+更多信息，请访问 友商快递100,网址是http://kuaidi100.com/chaxun?com=tiantian&nu=11111
 }}}
 
 =本文档下载地址：=
