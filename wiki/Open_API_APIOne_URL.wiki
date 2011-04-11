@@ -143,7 +143,7 @@ link：查询的回调地址
 
 ==html返回示例：==
 
-<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-30 11:10</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>已签收,签收人是【邮件签收章】</td></tr><tr><td  style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;' colspan='2' align='center'><a href='http://kuaidi100.com/chaxun?com=tiantian&nu=11111' target='_blank'>更多信息，请访问 快递100</a></td></tr></table>
+<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-30 11:10</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>已签收,签收人是【邮件签收章】</td></tr><tr><td  style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;' colspan='2' align='center'><a href='http://kuaidi100.com/chaxun?com=tiantian&nu=11111' target='_blank'>更多信息，请访问 友商快递100</a></td></tr></table>
 
 ==text返回示例：==
 
