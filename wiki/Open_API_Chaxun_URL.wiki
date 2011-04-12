@@ -92,7 +92,7 @@
 ||zhaijisong，zjs，宅急送||宅急送||
 ||zhongtiewuliu，zhongtie，中铁||中铁快运||
 ||zhongtong，zt，中通||中通速递||
-||zhongyouwuliu，zhongyou，zy||中邮物流||
+||zhongyouwuliu，zhongyou，zy，中邮||中邮物流||
 
 = 返回结果：=
 
