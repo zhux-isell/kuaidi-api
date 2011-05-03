@@ -35,7 +35,7 @@
 
    申请邮箱：kuaidi@kingdee.com
 
-   身份key申请地址 [http://kuaidi100.com/app/reg.html  http://kuaidi100.com/app/reg.html]
+   身份key申请地址 [http://www.kuaidi100.com/api/  http://www.kuaidi100.com/api/]
 
 =API调用示例=
    kuaidi100.com API调用处理json数据的方法之一： [http://code.google.com/p/kuaidi-api/wiki/Open_API_Articles_PHP php调用示例]
