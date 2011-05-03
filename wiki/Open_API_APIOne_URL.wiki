@@ -55,7 +55,7 @@
 ||quanjitong||全际通物流||
 ||quanritongkuaidi||全日通快递||
 ||quanyikuaidi||全一快递||
-||shengtong||申通快递||
+||shentong||申通快递||
 ||shunfeng||顺丰速递||
 ||shenghuiwuliu||盛辉物流||
 ||suer||速尔物流||
