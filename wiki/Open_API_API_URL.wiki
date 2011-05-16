@@ -25,7 +25,8 @@
 ==表2：API URL 快递公司参数说明==
 
 ||*分类*|| *快递公司代码* || *公司名称* ||
-||*A*||aae||AAE全球专递||
+||*A*||
+||aae||AAE全球专递||
 ||||anjiekuaidi||安捷快递||
 ||||anxindakuaixi||安信达快递||
 ||*B*||baifudongfang||百福东方||
