@@ -19,7 +19,7 @@
 ||muti||Stirng||是||显示格式。本网站提供显示一行还是多行的选择。返回结果全部按快递最近的状态进行排序，您可以选择一行或者多行记录。||
 ||order||Stirng||否||排序。本网站提供倒序和顺序显示。如果不填的话，默认返回倒序。desc：按时间由新到旧排列；asc：按时间由旧到新排列。（大小不敏感）||
 
- 身份key申请地址 [http://kuaidi100.com/app  http://kuaidi100.com/app]
+ 身份key申请地址 [http://kuaidi100.com/api  http://kuaidi100.com/api]
 
 
 ==表2：API URL 快递公司参数说明==
