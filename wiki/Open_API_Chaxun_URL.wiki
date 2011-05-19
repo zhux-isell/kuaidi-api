@@ -39,7 +39,7 @@
 ||fenghuangkuaidi，fh，凤凰||凤凰快递||
 ||ganzhongnengda，nengda，能达，港中||港中能达物流||
 ||guangdongyouzhengwuliu，gdyz，广东邮政||广东邮政物流||
-||huitongkuaidi，huitong，ht，汇通||汇通快运||
+||huitongkuaidi，huitong，汇通||汇通快运||
 ||hengluwuliu,henglu，hl，恒路，恒路物流||恒路物流||
 ||huaxialongwuliu，hxl，huaxialong，华夏龙物流，华夏龙||华夏龙物流||
 ||jiayiwuliu，jy，佳怡，佳怡快递||佳怡物流||
