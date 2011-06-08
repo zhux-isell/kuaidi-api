@@ -43,7 +43,7 @@
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
 ||*E*|| || ||
-|| ||ems||EMS特快专递||
+|| ||ems||EMS特快专递(e邮宝)||
 ||*F*|| || ||
 || ||fedex||fedex||
 || ||feikangda||飞康达物流||
