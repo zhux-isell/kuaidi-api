@@ -85,7 +85,7 @@
 ||yuananda||源安达||
 ||Yuntongkuaidi||运通快递||
 ||zhaijisong||宅急送||
-||zhongtiekuaiyun||中铁快运||
+||ztky||中铁快运||
 ||zhongtong||中通速递||
 ||zhongyouwuliu||中邮物流||
 
