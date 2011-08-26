@@ -54,12 +54,14 @@
 || ||huitongkuaidi||汇通快运||
 || ||hengluwuliu||恒路物流||
 || ||huaxialongwuliu||华夏龙物流||
+|| ||haiwaihuanqiu||海外环球||
 ||*J*|| || ||
 || ||jinguangsudikuaijian||京广速递||'
 || ||jixianda||急先达||
 || ||jiajiwuliu||佳吉物流||
 || ||jiayiwuliu||佳怡物流||
 || ||jiayunmeiwuliu||加运美||
+|| ||jinyuekuaidi||晋越快递||
 ||*K*|| || ||
 || ||kuaijiesudi||快捷速递||
 ||*L*|| || ||
@@ -82,6 +84,7 @@
 || ||suer||速尔物流||
 || ||shengfengwuliu||盛丰物流||
 || ||shangda||上大物流||
+|| ||santaisudi||三态速递||
 ||*T*|| || ||
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
