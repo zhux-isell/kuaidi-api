@@ -40,8 +40,6 @@
 || ||dpex||DPEX||
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
-||*E*|| || ||
-|| ||ems||EMS特快专递(e邮宝)||
 ||*F*|| || ||
 || ||fedex||fedex||
 || ||feikangda||飞康达物流||
@@ -79,7 +77,6 @@
 || ||quanyikuaidi||全一快递||
 ||*S*|| || ||
 || ||shentong||申通快递||
-|| ||shunfeng||顺丰速运||
 || ||shenghuiwuliu||盛辉物流||
 || ||suer||速尔物流||
 || ||shengfengwuliu||盛丰物流||
