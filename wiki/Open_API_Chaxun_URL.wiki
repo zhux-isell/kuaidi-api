@@ -58,6 +58,7 @@
 ||quanjitong,qjt,quanjitong,全际通||全际通物流||
 ||quanritongkuaidi,quanritong,qrt,全日通||全日通快递||
 ||quanyikuaidi,quanyi,qy,全一||全一快递||
+||santaisudi||三态速递||
 ||shenghuiwuliu,shenghui,盛辉||盛辉物流||
 ||shentong,st,申通||申通||
 ||shunfeng,sf,顺丰||顺丰||
