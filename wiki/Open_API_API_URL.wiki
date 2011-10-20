@@ -41,7 +41,7 @@
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
 ||*F*|| || ||
-|| ||fedex||fedex||
+|| ||fedex||fedex（说明：fedex是国外，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
 || ||fenghuangkuaidi||凤凰快递||
 ||*G*|| || ||
@@ -66,6 +66,8 @@
 || ||lianhaowuliu||联昊通物流||
 || ||longbanwuliu||龙邦物流||
 || ||lanbiaokuaidi||蓝镖快递||
+|| ||lianbangkuaidi||联邦快递国内（说明：国外的请用 fedex）||
+
 ||*M*|| || ||
 || ||minghangkuaidi||民航快递||
 ||*P*|| || ||
