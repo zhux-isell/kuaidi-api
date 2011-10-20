@@ -77,6 +77,7 @@
 || ||quanritongkuaidi||全日通快递||
 || ||quanyikuaidi||全一快递||
 ||*S*|| || ||
+|| ||shunfeng||顺丰速运||
 || ||santaisudi||三态速递||
 || ||shentong||申通快递||
 || ||shenghuiwuliu||盛辉物流||
