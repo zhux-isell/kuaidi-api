@@ -25,7 +25,7 @@ http://api.kuaidi100.com/verifyCode?id=[]&com=[]
 == 参数说明 ==
 ||*名称*||*类型*||*是否必需*||*	描述*||
 ||id||String||是||身份key，为16位字母和数字的组合，请登陆友商快递100网站进行申请.（大小敏感）||
-||com||String||是||查询公司代码，不支持中文，对应的公司代码见http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL?ts=1319698159&updated=Open_API_API_URL的表2，如有添加，请关注本网站的更新公告。（大小不敏感）||
+||com||String||是||查询公司代码，不支持中文，对应的公司代码见 http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL?ts=1319698159&updated=Open_API_API_URL 的表2，如有添加，请关注本网站的更新公告。（大小不敏感）||
 
 == 特别说明 ==
 API使用用户必须保证获取验证码的请求与当次查询请求在同一个会话（session）中进行。
