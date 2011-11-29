@@ -9,11 +9,12 @@
 
 = 特别说明 =
 1、获得快递单号信息的仍然采用原来的API URL，只是启用原来的 *“valicode”* 参数，该参数的值需要通过“APICode URL”来获得。
-2、通过APICode URL获得验证码必须与通过API URL进行查询两个请求保持在同一个会话内！具体的方法请参考该下载包中的word文档：
+
+2、通过APICode URL获得验证码必须与通过API URL进行查询两个请求保持在同一个会话内！
+
+具体的方法请参考该下载包中的word文档：
 http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar
 
-开发范例下载：
-Java版：http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar
 
 = APICode URL =
 == 作用 ==
