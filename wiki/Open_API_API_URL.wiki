@@ -44,6 +44,7 @@
 || ||fedex||fedex（说明：fedex是国外，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
 || ||fenghuangkuaidi||凤凰快递||
+|| ||feikuaida||飞快达速递||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达物流||
 || ||guangdongyouzhengwuliu||广东邮政物流||
