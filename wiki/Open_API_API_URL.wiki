@@ -69,6 +69,8 @@
 || ||lianbangkuaidi||联邦快递国内（说明：国外的请用 fedex）||
 ||*M*|| || ||
 || ||minghangkuaidi||民航快递||
+||*R*|| || ||
+|| ||rufengda||如风达快递||
 ||*P*|| || ||
 || ||peisihuoyunkuaidi||配思货运||
 ||*Q*|| || ||
@@ -76,6 +78,7 @@
 || ||quanjitong||全际通物流||
 || ||quanritongkuaidi||全日通快递||
 || ||quanyikuaidi||全一快递||
+|| ||quanfengkuaidi||全峰快递||
 ||*S*|| || ||
 || ||santaisudi||三态速递||
 || ||shenghuiwuliu||盛辉物流||
