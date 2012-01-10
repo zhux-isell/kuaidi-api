@@ -23,36 +23,38 @@
 ==表2：API URL 快递公司参数说明==
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
-|| ||aae||AAE全球专递||
-|| ||anxindakuaixi||安信达快递||
+|| ||aae||AAE||
+|| ||anxindakuaixi||安信达||
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
 || ||youzhengguonei||包裹/平邮/挂号信||
 ||*C*|| || ||
-|| ||cces||希伊艾斯快递（CCES）||
+|| ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
 ||*D*|| || ||
-|| ||datianwuliu||大田物流||
-|| ||debangwuliu||德邦物流||
+|| ||datianwuliu||大田（物流）||
+|| ||debangwuliu||德邦（物流）||
 || ||dpex||DPEX||
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
+||*E*|| || ||
+|| ||ems||EMS（暂不支持）||
+|| ||ems||E邮宝（暂不支持）||
 ||*F*|| || ||
-|| ||fedex||fedex（说明：fedex是国外，国内的请用“lianbangkuaidi”）||
-|| ||feikangda||飞康达物流||
-|| ||feikuaida||飞快达速递||
+|| ||fedex||FedEx（国际）（说明：FedEx是国际，国内的请用“lianbangkuaidi”）||
+|| ||feikangda||飞康达（物流）||
+|| ||feikuaida||飞快达||
 ||*G*|| || ||
-|| ||ganzhongnengda||港中能达物流||
-|| ||guangdongyouzhengwuliu||广东邮政物流||
+|| ||ganzhongnengda||港中能达（物流）||
+|| ||guangdongyouzhengwuliu||广东邮政||
 || ||youzhengguonei||挂号信||
-|| ||gls||GLS快递||
+|| ||gls||GLS||
 ||*H*|| || ||
 || ||huitongkuaidi||汇通快运||
-|| ||hengluwuliu||恒路物流||
-|| ||huaxialongwuliu||华夏龙物流||
-|| ||haiwaihuanqiu||海外环球||
-|| ||tiantian||海航天天快递||
+|| ||hengluwuliu||恒路（物流）||
+|| ||huaxialongwuliu||华夏龙（物流）||
+|| ||tiantian||海航天天||
 ||*J*|| || ||
 || ||jinguangsudikuaijian||京广速递||'
 || ||jixianda||急先达||
@@ -66,18 +68,21 @@
 || ||lianhaowuliu||联昊通物流||
 || ||longbanwuliu||龙邦物流||
 || ||lanbiaokuaidi||蓝镖快递||
-|| ||lianbangkuaidi||联邦快递国内（说明：国外的请用 fedex）||
+|| ||lianbangkuaidi||联邦快递（国内）（说明：国外的请用 fedex）||
 ||*M*|| || ||
 || ||minghangkuaidi||民航快递||
 ||*R*|| || ||
 || ||rufengda||如风达快递||
 ||*Q*|| || ||
 || ||quanchenkuaidi||全晨快递||
-|| ||quanjitong||全际通物流||
-|| ||quanritongkuaidi||全日通快递||
+|| ||quanjitong||全际通||
+|| ||quanritongkuaidi||全日通||
 || ||quanyikuaidi||全一快递||
 || ||quanfengkuaidi||全峰快递||
 ||*S*|| || ||
+|| ||shentong||申通速递（暂不支持）||
+|| ||shentong||申通E物流（暂不支持）||
+|| ||shunfeng||顺丰速递（暂不支持）||
 || ||santaisudi||三态速递||
 || ||shenghuiwuliu||盛辉物流||
 || ||suer||速尔物流||
