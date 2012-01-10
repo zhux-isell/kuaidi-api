@@ -24,16 +24,14 @@
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
 || ||aae||AAE全球专递||
-|| ||anjiekuaidi||安捷快递||
 || ||anxindakuaixi||安信达快递||
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
-|| ||biaojikuaidi||彪记快递||
 || ||bht||BHT||
+|| ||youzhengguonei||包裹/平邮/挂号信||
 ||*C*|| || ||
-|| ||cces||希伊艾斯快递||
+|| ||cces||希伊艾斯快递（CCES）||
 || ||coe||中国东方（COE）||
-|| ||changyuwuliu||长宇物流||
 ||*D*|| || ||
 || ||datianwuliu||大田物流||
 || ||debangwuliu||德邦物流||
@@ -43,17 +41,18 @@
 ||*F*|| || ||
 || ||fedex||fedex（说明：fedex是国外，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
-|| ||fenghuangkuaidi||凤凰快递||
 || ||feikuaida||飞快达速递||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达物流||
 || ||guangdongyouzhengwuliu||广东邮政物流||
+|| ||youzhengguonei||挂号信||
 || ||gls||GLS快递||
 ||*H*|| || ||
 || ||huitongkuaidi||汇通快运||
 || ||hengluwuliu||恒路物流||
 || ||huaxialongwuliu||华夏龙物流||
 || ||haiwaihuanqiu||海外环球||
+|| ||tiantian||海航天天快递||
 ||*J*|| || ||
 || ||jinguangsudikuaijian||京广速递||'
 || ||jixianda||急先达||
@@ -72,8 +71,6 @@
 || ||minghangkuaidi||民航快递||
 ||*R*|| || ||
 || ||rufengda||如风达快递||
-||*P*|| || ||
-|| ||peisihuoyunkuaidi||配思货运||
 ||*Q*|| || ||
 || ||quanchenkuaidi||全晨快递||
 || ||quanjitong||全际通物流||
@@ -95,14 +92,12 @@
 || ||ups||UPS||
 ||*W*|| || ||
 || ||wanjiawuliu||万家物流||
-|| ||wenjiesudi||文捷航空速递||
-|| ||wuyuansudi||伍圆速递||
 || ||wanxiangwuliu||万象物流||
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
 || ||xinfengwuliu||信丰物流||
 || ||xingchengjibian||星晨急便||
-|| ||xinhongyukuaidi||鑫飞鸿物流快递||
+|| ||xinhongyukuaidi||鑫飞鸿||
 ||*Y*|| || ||
 || ||yafengsudi||亚风速递||
 || ||yibangwuliu||一邦速递||
