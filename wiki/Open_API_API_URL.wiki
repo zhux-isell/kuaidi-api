@@ -43,7 +43,7 @@
 || ||ems||E邮宝（暂不支持）||
 ||*F*|| || ||
 || ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
-|| ||feikangda||飞康达（物流）||
+|| ||feikangda||飞康达物流||
 || ||feikuaida||飞快达||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
@@ -52,8 +52,8 @@
 || ||gls||GLS||
 ||*H*|| || ||
 || ||huitongkuaidi||汇通快运||
-|| ||hengluwuliu||恒路（物流）||
-|| ||huaxialongwuliu||华夏龙（物流）||
+|| ||hengluwuliu||恒路物流||
+|| ||huaxialongwuliu||华夏龙||
 || ||tiantian||海航天天||
 ||*J*|| || ||
 || ||jinguangsudikuaijian||京广速递||'
