@@ -28,7 +28,7 @@
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持）||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
