@@ -33,8 +33,8 @@
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
 ||*D*|| || ||
-|| ||datianwuliu||大田（物流）||
-|| ||debangwuliu||德邦（物流）||
+|| ||datianwuliu||大田物流||
+|| ||debangwuliu||德邦物流||
 || ||dpex||DPEX||
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
@@ -42,11 +42,11 @@
 || ||ems||EMS（暂不支持）||
 || ||ems||E邮宝（暂不支持）||
 ||*F*|| || ||
-|| ||fedex||FedEx（国际）（说明：FedEx是国际，国内的请用“lianbangkuaidi”）||
+|| ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达（物流）||
 || ||feikuaida||飞快达||
 ||*G*|| || ||
-|| ||ganzhongnengda||港中能达（物流）||
+|| ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
 || ||youzhengguonei||挂号信||
 || ||gls||GLS||
@@ -65,7 +65,7 @@
 ||*K*|| || ||
 || ||kuaijiesudi||快捷速递||
 ||*L*|| || ||
-|| ||lianhaowuliu||联昊通物流||
+|| ||lianhaowuliu||联昊通||
 || ||longbanwuliu||龙邦物流||
 || ||lanbiaokuaidi||蓝镖快递||
 || ||lianbangkuaidi||联邦快递（国内）（说明：国外的请用 fedex）||
@@ -110,12 +110,14 @@
 || ||yuanchengwuliu||远成物流||
 || ||yuantong||圆通速递||
 || ||yuanweifeng||源伟丰快递||
-|| ||yuanzhijiecheng||元智捷诚快递||
+|| ||yuanzhijiecheng||元智捷诚||
 || ||yuefengwuliu||越丰物流||
 || ||yunda||韵达快运||
 || ||yuananda||源安达||
-|| ||yuanfeihangwuliu||原飞航物流||
+|| ||yuanfeihangwuliu||原飞航||
 || ||yuntongkuaidi||运通快递||
+|| ||youzhengguonei||邮政国内给据（暂不支持）||
+|| ||youzhengguoji||邮政国际（暂不支持）||
 ||*Z*|| || ||
 || ||zhaijisong||宅急送||
 || ||zhongtiewuliu||中铁快运||
