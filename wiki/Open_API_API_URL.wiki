@@ -97,7 +97,6 @@
 || ||ups||UPS||
 ||*W*|| || ||
 || ||wanjiawuliu||万家物流||
-|| ||wanxiangwuliu||万象物流||
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
 || ||xinfengwuliu||信丰物流||
