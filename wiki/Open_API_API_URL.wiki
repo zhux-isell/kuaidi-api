@@ -28,7 +28,7 @@
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持）||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用APICode URL）||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
@@ -39,8 +39,8 @@
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
 ||*E*|| || ||
-|| ||ems||EMS（暂不支持）||
-|| ||ems||E邮宝（暂不支持）||
+|| ||ems||EMS（暂不支持，请转用APICode URL）||
+|| ||ems||E邮宝（暂不支持，请转用APICode URL）||
 ||*F*|| || ||
 || ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
@@ -48,7 +48,7 @@
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
-|| ||youzhengguonei||挂号信||
+|| ||youzhengguonei||挂号信（暂不支持，请转用APICode URL）||
 || ||gls||GLS||
 ||*H*|| || ||
 || ||huitongkuaidi||汇通快运||
@@ -80,9 +80,9 @@
 || ||quanyikuaidi||全一快递||
 || ||quanfengkuaidi||全峰快递||
 ||*S*|| || ||
-|| ||shentong||申通速递（暂不支持）||
-|| ||shentong||申通E物流（暂不支持）||
-|| ||shunfeng||顺丰速递（暂不支持）||
+|| ||shentong||申通速递（暂不支持，请转用Chaxun URL）||
+|| ||shentong||申通E物流（暂不支持，请转用Chaxun UR）||
+|| ||shunfeng||顺丰速递（暂不支持，请转用APICode URL）||
 || ||santaisudi||三态速递||
 || ||shenghuiwuliu||盛辉物流||
 || ||suer||速尔物流||
@@ -115,8 +115,8 @@
 || ||yuananda||源安达||
 || ||yuanfeihangwuliu||原飞航||
 || ||yuntongkuaidi||运通快递||
-|| ||youzhengguonei||邮政国内给据（暂不支持）||
-|| ||youzhengguoji||邮政国际（暂不支持）||
+|| ||youzhengguonei||邮政国内给据（暂不支持，请转用APICode URL）||
+|| ||youzhengguoji||邮政国际（暂不支持，请转用APICode URL）||
 ||*Z*|| || ||
 || ||zhaijisong||宅急送||
 || ||zhongtiewuliu||中铁快运||
