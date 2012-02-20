@@ -45,7 +45,7 @@
 || ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
 || ||feikuaida||飞快达||
-|| ||rufengda||如风达||
+|| ||rufengda||凡客如风达||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
