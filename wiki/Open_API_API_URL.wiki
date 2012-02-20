@@ -94,8 +94,8 @@
 || ||shengfengwuliu||盛丰物流||
 || ||shangda||上大物流||
 || ||santaisudi||三态速递||
-|| ||shandonghaihong||山东海红（暂不支持）||
-|| ||saiodi||赛澳递（暂不支持）||
+|| ||shandonghaihong||山东海红（暂不支持，请转用APICode URL）||
+|| ||saiodi||赛澳递（暂不支持，请转用APICode URL）||
 ||*T*|| || ||
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
