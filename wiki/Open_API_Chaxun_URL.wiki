@@ -33,37 +33,53 @@
 ||dhl||dhl||
 ||dpex||dpex||
 ||dsukuaidi,ds,dsu,d速||d速快递||
+||disifang,递四方||递四方||
 ||ems||ems快递||
 ||fedex,联邦,联邦快递||fedex||
 ||feikangda,fkd,飞康达||飞康达物流||
 ||fenghuangkuaidi,fh,凤凰||凤凰快递||
+||feikuaida,feikuaida,飞快达||飞快达||
 ||ganzhongnengda,nengda,能达,港中||港中能达物流||
 ||guangdongyouzhengwuliu,gdyz,广东邮政||广东邮政物流||
+||gongsuda,共速达||共速达||
 ||huitongkuaidi,huitong,汇通||汇通快运||
 ||hengluwuliu,henglu,hl,恒路,恒路物流||恒路物流||
 ||huaxialongwuliu,hxl,huaxialong,华夏龙物流,华夏龙||华夏龙物流||
+||haihongwangsong,海红网送||海红||
+||hwhq,haiwaihuanqiu,海外环球||海外环球||
 ||jiayiwuliu,jy,佳怡,佳怡快递||佳怡物流||
 ||jinguangsudikuaijian,jingguang,京广||京广速递||
 ||jixianda,jxd,急先达||急先达||
 ||jjwl,jiaji,jj,佳吉||佳吉物流||
 ||jymwl,jiayunmei,jym,加运美||加运美物流||
 ||jindawuliu,jinda,金大,金大物流||金大物流||
+||jialidatong,嘉里大通||
+||jykd,jinyue,晋越||晋越快递||
 ||kuaijiesudi,kj,kuaijie,快捷||快捷速递||
+||lianb,lianbang,联邦||联邦快递||
 ||lianhaowuliu,lht,lianhaotong,联昊通||联昊通物流||
 ||longbanwuliu,longbang,lb,龙邦||龙邦物流||
+||lijisong,lijisong,立即送||立即送||
+||lejiedi,lejiedi,乐捷递||乐捷递||
 ||minghangkuaidi,mh,minghang,民航||民航快递||
+||meiguokuaidi,meiguo,美国快递||美国快递||
+||menduimen,门对门||门对门||
 ||Nanjing100,nanjing,nj,南京100,南京100快递||南京100快递||
+||ocs,ocs||OCS||
 ||peisihuoyunkuaidi,ps,peisi,配思||配思货运||
 ||quanchenkuaidi,quanchen,qc,全晨||全晨快递||
+||qfkd,quanfeng,全峰||全峰快递||
 ||quanjitong,qjt,quanjitong,全际通||全际通物流||
 ||quanritongkuaidi,quanritong,qrt,全日通||全日通快递||
 ||quanyikuaidi,quanyi,qy,全一||全一快递||
+||rufengda,如风达||如风达||
 ||santaisudi||三态速递||
 ||shenghuiwuliu,shenghui,盛辉||盛辉物流||
 ||shentong,st,申通||申通||
 ||shunfeng,sf,顺丰||顺丰||
 ||suer,se,速尔||速尔物流||
 ||shengfeng,盛丰||盛丰物流||
+||saiaodi,赛澳递||赛澳递||
 ||tiandihuayu,tiandi,huayu,tdhy,天地||天地华宇||
 ||tiantian,tt,天天||天天快递||
 ||tnt||tnt||
@@ -89,10 +105,13 @@
 ||yuntongkuaidi,yuntong, 运通,运通快递||运通快递||
 ||yuefengwuliu,yuefeng,越丰,越丰物流||越丰物流||
 ||yad,yuananda,源安达||源安达||
+||yinjiesudi,yinjie,银捷||银捷速递||
 ||zhaijisong,zjs,宅急送||宅急送||
 ||zhongtiekuaiyun,zhongtie,中铁||中铁快运||
 ||zhongtong,zt,中通||中通速递||
 ||zhongyouwuliu,zhongyou,zy,中邮||中邮物流||
+||zhongxinda,忠信达||忠信达||
+||zhimakaimen,芝麻开门||芝麻开门||
 
 = 返回结果：=
 
