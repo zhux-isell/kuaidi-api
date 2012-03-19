@@ -12,7 +12,7 @@
 
 2、通过APICode URL获得验证码必须与通过API URL进行查询两个请求保持在同一个会话内！
 
-具体的方法请参考该下载包中的word文档：
+*Java版代码示范、时序图、关键步骤代码示范*：
 http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar
 
 
