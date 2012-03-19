@@ -28,7 +28,7 @@
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用APICode URL[http://code.google.com/p/kuaidi-api/wiki/Open_API_APICode_URL?ts=1332140715&updated=Open_API_APICode_URL]）||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[Open_API_APICode_URL  ]）||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
