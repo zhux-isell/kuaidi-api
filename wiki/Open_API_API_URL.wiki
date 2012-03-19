@@ -94,8 +94,8 @@
 || ||shengfengwuliu||盛丰物流||
 || ||shangda||上大物流||
 || ||santaisudi||三态速递||
-|| ||shandonghaihong||山东海红（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||saiodi||赛澳递（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||shandonghaihong||山东海红||
+|| ||saiodi||赛澳递||
 ||*T*|| || ||
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
@@ -108,7 +108,7 @@
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
 || ||xinfengwuliu||信丰物流||
-|| ||xingchengjibian||星晨急便||
+|| ||xingchengjibian||星晨急便（暂不支持，请转用[Open_API_APICode_URL]）||
 || ||xinhongyukuaidi||鑫飞鸿||
 ||*Y*|| || ||
 || ||yafengsudi||亚风速递||
@@ -123,8 +123,8 @@
 || ||yuananda||源安达||
 || ||yuanfeihangwuliu||原飞航||
 || ||yuntongkuaidi||运通快递||
-|| ||zhongxinda||忠信达快递（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||zhimakaimen||芝麻开门（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||zhongxinda||忠信达快递||
+|| ||zhimakaimen||芝麻开门||
 || ||youzhengguonei||邮政国内给据（暂不支持，请转用[Open_API_APICode_URL]）||
 || ||youzhengguoji||邮政国际（暂不支持，请转用[Open_API_APICode_URL]）||
 ||*Z*|| || ||
