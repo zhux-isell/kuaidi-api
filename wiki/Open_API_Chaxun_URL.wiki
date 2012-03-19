@@ -35,7 +35,7 @@
 ||dsukuaidi,ds,dsu,d速||d速快递||
 ||disifang,递四方||递四方||
 ||ems||ems快递||
-||fedex,联邦,联邦快递||fedex||
+||fedex,联邦,联邦快递||fedex（国外）||
 ||feikangda,fkd,飞康达||飞康达物流||
 ||fenghuangkuaidi,fh,凤凰||凤凰快递||
 ||feikuaida,feikuaida,飞快达||飞快达||
@@ -53,10 +53,10 @@
 ||jjwl,jiaji,jj,佳吉||佳吉物流||
 ||jymwl,jiayunmei,jym,加运美||加运美物流||
 ||jindawuliu,jinda,金大,金大物流||金大物流||
-||jialidatong,嘉里大通||
+||jialidatong,嘉里大通||嘉里大通||
 ||jykd,jinyue,晋越||晋越快递||
 ||kuaijiesudi,kj,kuaijie,快捷||快捷速递||
-||lianb,lianbang,联邦||联邦快递||
+||lianb,lianbang,联邦||联邦快递（国内）||
 ||lianhaowuliu,lht,lianhaotong,联昊通||联昊通物流||
 ||longbanwuliu,longbang,lb,龙邦||龙邦物流||
 ||lijisong,lijisong,立即送||立即送||
