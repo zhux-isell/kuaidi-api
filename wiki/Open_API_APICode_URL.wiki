@@ -73,8 +73,6 @@ http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=
 ||*S*|| || ||
 || ||shentong||申通||
 || ||shunfeng||顺丰||
-||*W*|| || ||
-|| ||wanxiangwuliu||万象物流 ||
 ||*X*|| || ||
 || ||xingchengjibian||星晨急便||
 ||*Y*|| || ||
