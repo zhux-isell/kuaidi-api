@@ -30,7 +30,7 @@
 ||dpex||DPEX||
 ||dhl||DHL||
 ||dsukuaidi||D速快递||
-||ems||EMS快递（暂不支持，请转用Open_API_APICode_URL）||
+||ems||EMS快递（暂不支持，请转用[Open_API_APICode_URL]）||
 ||fedex||fedex||
 ||feikangda||飞康达物流||
 ||fenghuangkuaidi||凤凰快递||
@@ -56,8 +56,8 @@
 ||quanritongkuaidi||全日通快递||
 ||quanyikuaidi||全一快递||
 ||santaisudi||三态速递||
-||shentong||申通快递（暂不支持，请转用Open_API_Chaxun_URL）|| 
-||shunfeng||顺丰速递（暂不支持，请转用Open_API_APICode_URL）||  
+||shentong||申通快递（暂不支持，请转用[Open_API_Chaxun_URL]）|| 
+||shunfeng||顺丰速递（暂不支持，请转用[Open_API_APICode_URL]）||  
 ||shenghuiwuliu||盛辉物流||
 ||suer||速尔物流||
 ||shengfengwuliu||盛丰物流||
