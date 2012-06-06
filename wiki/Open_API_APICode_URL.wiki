@@ -15,6 +15,8 @@
 =Java版代码示范、时序图、关键步骤代码示范=
 http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar
 
+=PHP版代码示范=
+http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar
 
 = APICode URL =
 == 作用 ==
