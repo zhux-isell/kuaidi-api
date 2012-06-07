@@ -6,6 +6,10 @@
 
 第三步：程序利用 *API URL* 进行查询，并获得结果，最后显示出来
 
+效果演示：
+地址：http://www.shihui.cn/app/order_query.html
+示例单号：
+SH-SDD-12060515084350、SH-SDD-12060509465242
 
 = 特别说明 =
 1、获得快递单号信息的仍然采用原来的API URL，只是启用原来的 *“valicode”* 参数，该参数的值需要通过“APICode URL”来获得。
