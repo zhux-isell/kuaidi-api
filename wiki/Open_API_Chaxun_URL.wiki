@@ -75,7 +75,7 @@
 ||rufengda,如风达||如风达||
 ||santaisudi||三态速递||
 ||shenghuiwuliu,shenghui,盛辉||盛辉物流||
-||shentong,st||shengtong||
+||shentong,st||shentong||
 ||shunfeng,sf,顺丰||顺丰||
 ||suer,se,速尔||速尔物流||
 ||shengfeng,盛丰||盛丰物流||
