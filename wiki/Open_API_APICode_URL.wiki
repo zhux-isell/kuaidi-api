@@ -77,7 +77,7 @@ http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=
 ||*N*|| || ||
 || ||nanjing||南京100||
 ||*S*|| || ||
-|| ||shentong|| ||
+|| ||shentong||shentong ||
 || ||shunfeng||顺丰||
 ||*X*|| || ||
 || ||xingchengjibian||星晨急便||
