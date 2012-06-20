@@ -22,6 +22,9 @@ http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%
 =PHP版代码示范=
 http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar
 
+=ASP.NET版代码示范=
+http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar
+
 = APICode URL =
 == 作用 ==
 部分快递公司在查询时需要输入验证码，此API为用户提供验证码调用接口，用以显示验证码。
