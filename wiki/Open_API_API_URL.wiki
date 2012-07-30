@@ -1,7 +1,7 @@
 = 样式 =
         http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
 
-= 例子 =
+== 例子 ==
 http://api.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc
 （这个只是例子，仅供说明用）
 
