@@ -1,3 +1,6 @@
+= APIOne URL于9月底停止服务声明 =
+ APIOne URL将于2012年9月底停止服务，请各位转用快递100提供的其他类型的API，详情请参考：http://www.kuaidi100.com/openapi/index.shtml
+
 = 样式: =
 
  http://api.kuaidi100.com/apione? com=[]&nu=[]&show=[0|1|2]
