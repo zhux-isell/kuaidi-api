@@ -26,7 +26,7 @@ http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6
 == 3.3 ASP.NET版代码示范 ==
 http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar
 
-= 4.APICode URL =
+= 4.APICode URL使用说明 =
 == 4.1 作用 ==
 部分快递公司在查询时需要输入验证码，此API为用户提供验证码调用接口，用以显示验证码。
 
@@ -54,7 +54,7 @@ API用户为每次用户查询建立一个新的会话并与快递API服务通�
 
 
 
-= 5.API URL =
+= 5.API URL使用说明 =
 == 5.1 说明 ==
 作用：查询并获得指定快递公司、快递单号的快递信息。
 更为详细的说明请参考：http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL
