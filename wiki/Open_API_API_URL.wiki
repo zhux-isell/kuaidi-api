@@ -3,6 +3,7 @@
 
 = 例子 =
 http://api.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc
+（这个只是例子，仅供说明用）
 
 = 说明 =
          支持多种参数供调用，包括快递公司、快递单号、显示类型、格式、排序等，详见参数说明。查询时传入公司代码（暂不支持中文），对应的公司代码如表2，如有添加，请关注本网站[http://www.kuaidi100.com]的更新公告。
