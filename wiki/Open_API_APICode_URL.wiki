@@ -6,15 +6,16 @@
 
 第三步：程序利用 *API URL* 进行查询，并获得结果，最后显示出来
 
-== 1.1 效果演示：==
+== 效果演示：==
 地址：http://www.shihui.cn/app/order_query.html
 示例单号：
 SH-SDD-12060515084350、SH-SDD-12060509465242
 
-== 1.2 特别说明 ==
+== 特别说明 ==
 1、获得快递单号信息的仍然采用原来的API URL，只是启用原来的 *“valicode”* 参数，该参数的值需要通过“APICode URL”来获得。
 
 2、通过APICode URL获得验证码必须与通过API URL进行查询两个请求保持在同一个会话内！
+
 
 =3.开发示范=
 == 3.1 Java版代码示范、时序图、关键步骤代码示范 ==
@@ -25,6 +26,7 @@ http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6
 
 == 3.3 ASP.NET版代码示范 ==
 http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar
+
 
 = 4.APICode URL使用说明 =
 == 4.1 作用 ==
