@@ -1,8 +1,8 @@
 = 1、API地址 =
         http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
 
-         *说明*:支持多种参数供调用，包括快递公司、快递单号、显示类型、格式、排序等，详见参数说明。查询时传入公司代码（暂不支持中文），对应的公司代码见后面表2，如有添加，请关注本网站[http://www.kuaidi100.com]的更新公告。
-         *注*：为了防止恶意解释的情况，不能通过IP访问本网站及API，敬请原谅）
+         *_说明_* :支持多种参数供调用，包括快递公司、快递单号、显示类型、格式、排序等，详见参数说明。查询时传入公司代码（暂不支持中文），对应的公司代码见后面表2，如有添加，请关注本网站[http://www.kuaidi100.com]的更新公告。
+         *_注_* ：为了防止恶意解释的情况，不能通过IP访问本网站及API，敬请原谅）
 
 
 = 2、参数说明 =
@@ -34,14 +34,14 @@ state:快递单的状态（返回0、1、2、3、4。0表示在途中；1表示�
 == API调用示范
          http://api.kuaidi100.com/api?id=xxxxxxxxxxxxx&com=tiantian&nu=11111&show=0&muti=1&order=desc
 
-==4.1 Json返回示例 ==
+== 4.1 Json返回示例 ==
 {{{ 
 
 {"message":"","data":[{"time":"2010-08-04 02:26","context":"由【杭州集散】发往【湖州中转站】"},{"time":"2010-07-12 01:48","context":"【东莞集散】的收件员【企石线】已收件"},{"time":"2010-07-01 11:19","context":"【泰州海陵】的派件员【刘魁15850876697】正在派件"},{"time":"2010-06-27 09:59","context":"快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】"},{"time":"2010-06-27 09:45","context":"快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】"},{"time":"2010-05-22 18:58","context":"由【浦东分拨中心】发往【上海】"},{"time":"2010-05-21 21:12","context":"快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】"},{"time":"2010-04-25 21:45","context":"由【北京集散】发往【哈尔滨】"}],"status":1}
 }}}
 
 
-== 3.2 xml返回示例  ==
+== 4.2 xml返回示例  ==
 {{{ 
 
 <xml>
@@ -82,11 +82,11 @@ state:快递单的状态（返回0、1、2、3、4。0表示在途中；1表示�
 </xml>
 }}}
 
-== 3.3 html返回示例  ==
+== 4.3 html返回示例  ==
 <table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-04 02:26</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【杭州集散】发往【湖州中转站】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-12 01:48</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【东莞集散】的收件员【企石线】已收件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-01 11:19</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【泰州海陵】的派件员【刘魁15850876697】正在派件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:59</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-22 18:58</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【浦东分拨中心】发往【上海】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-21 21:12</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-04-25 21:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【北京集散】发往【哈尔滨】</td></tr></table>
 
 
-== 3.4 text返回示例 ==
+== 4.4 text返回示例 ==
 {{{ 
 2010-08-04 02:26 由【杭州集散】发往【湖州中转站】
 2010-07-12 01:48 【东莞集散】的收件员【企石线】已收件
