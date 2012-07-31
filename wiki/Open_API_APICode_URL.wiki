@@ -1,9 +1,10 @@
 #labels OPENAPI,API,APICodeURL
 = 1.创建带验证码的快递查询程序 =
 == 整体步骤 ==
-第一步：# 程序利用 *APICode URL* 获得验证码图片，显示出来
+第一步：
+        # 程序利用 *APICode URL* 获得验证码图片，显示出来
 
-        # 程序获取响应头Response Headers中Set-Cookie的值，将Set-Cookie中的JSESSIONID的值抽出来
+        # 程序获取响应头Response Headers中Set-Cookie的值，将Set-Cookie中的JSESSIONID的值取出
 
         （见后面《3.APICode URL使用说明》
 
