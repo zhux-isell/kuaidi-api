@@ -30,65 +30,79 @@
 == 4.2 Json返回示例 ==
 {{{ 
 
-{"message":"","data":[{"time":"2010-08-04 02:26","context":"由【杭州集散】发往【湖州中转站】"},{"time":"2010-07-12 01:48","context":"【东莞集散】的收件员【企石线】已收件"},{"time":"2010-07-01 11:19","context":"【泰州海陵】的派件员【刘魁15850876697】正在派件"},{"time":"2010-06-27 09:59","context":"快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】"},{"time":"2010-06-27 09:45","context":"快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】"},{"time":"2010-05-22 18:58","context":"由【浦东分拨中心】发往【上海】"},{"time":"2010-05-21 21:12","context":"快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】"},{"time":"2010-04-25 21:45","context":"由【北京集散】发往【哈尔滨】"}],"status":1}
+{"message":"ok","condition":"F00","status":"1","state":"3","data":[{"time":"2012-07-07 13:35:14","context":"客户已签收"},{"time":"2012-07-07 09:10:10","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]"},{"time":"2012-07-06 19:46:38","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 15:22:32","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]"},{"time":"2012-07-06 15:05:00","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 13:37:52","context":"离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 12:54:41","context":"到达 [北京_同城中转站]"},{"time":"2012-07-06 11:11:03","context":"离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]"},{"time":"2012-07-06 10:43:21","context":"到达 [北京运转中心_航空_驻站班组]"},{"time":"2012-07-05 21:18:53","context":"离开 [福建_厦门支公司] 发往 [北京运转中心_航空]"},{"time":"2012-07-05 20:07:27","context":"已取件，到达 [福建_厦门支公司]"}]}
+
 }}}
 
 
 == 4.3 xml返回示例  ==
 {{{ 
-
 <xml>
-	<message />
-	<data>
-		<time>2010-08-04 02:26</time>
-		<context>由【杭州集散】发往【湖州中转站】</context>
-	</data>
-	<data>
-		<time>2010-07-12 01:48</time>
-		<context>【东莞集散】的收件员【企石线】已收件</context>
-	</data>
-	<data>
-		<time>2010-07-01 11:19</time>
-		<context>【泰州海陵】的派件员【刘魁15850876697】正在派件</context>
-	</data>
-	<data>
-		<time>2010-06-27 09:59</time>
-		<context>快件已到达【缙云壶镇】 扫描员是【3161785】上一站是【金华分拨中心】</context>
-	</data>
-	<data>
-		<time>2010-06-27 09:45</time>
-		<context>快件已到达【淮安分拨中心】 扫描员是【王怀标】上一站是【徐州】</context>
-	</data>
-	<data>
-		<time>2010-05-22 18:58</time>
-		<context>由【浦东分拨中心】发往【上海】</context>
-	</data>
-	<data>
-		<time>2010-05-21 21:12</time>
-		<context>快件已到达【杭州集散】 扫描员是【李淑梅】上一站是【无】</context>
-	</data>
-	<data>
-		<time>2010-04-25 21:45</time>
-		<context>由【北京集散】发往【哈尔滨】</context>
-	</data>
+	<message>ok</message>
 	<status>1</status>
+	<state>3</state>
+	<data>
+		<time>2012-07-07 13:35:14</time>
+		<context>客户已签收</context>
+	</data>
+	<data>
+		<time>2012-07-07 09:10:10</time>
+		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[]</context>
+	</data>
+	<data>
+		<time>2012-07-06 19:46:38</time>
+		<context>到达 [北京_房山营业所_石景山营业厅]</context></data><data><time>2012-07-06 15:22:32</time>
+		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]</context>
+	</data>
+	<data>
+		<time>2012-07-06 15:05:00</time>
+		<context>到达 [北京_房山营业所_石景山营业厅]</context>
+	</data>
+	<data>
+		<time>2012-07-06 13:37:52</time>
+		<context>离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]</context>
+	</data>
+	<data>
+		<time>2012-07-06 12:54:41</time>
+		<context>到达 [北京_同城中转站]</context>
+	</data>
+	<data>
+		<time>2012-07-06 11:11:03</time>
+		<context>离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]</context>
+	</data>
+	<data>
+		<time>2012-07-06 10:43:21</time>
+		<context>到达 [北京运转中心_航空_驻站班组]</context>
+	</data>
+	<data>
+		<time>2012-07-05 21:18:53</time>
+		<context>离开 [福建_厦门支公司] 发往 [北京运转中心_航空]</context></data>
+	<data>
+		<time>2012-07-05 20:07:27</time>
+		<context>已取件，到达 [福建_厦门支公司]</context>
+	</data>
 </xml>
+
 }}}
 
 == 4.4 html返回示例  ==
-<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-08-04 02:26</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【杭州集散】发往【湖州中转站】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-12 01:48</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【东莞集散】的收件员【企石线】已收件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-07-01 11:19</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>【泰州海陵】的派件员【刘魁15850876697】正在派件</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:59</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-06-27 09:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-22 18:58</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【浦东分拨中心】发往【上海】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-05-21 21:12</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2010-04-25 21:45</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>由【北京集散】发往【哈尔滨】</td></tr></table>
+<table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-07 13:35:14</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>客户已签收</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-07 09:10:10</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 19:46:38</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 15:22:32</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 15:05:00</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 13:37:52</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 12:54:41</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_同城中转站]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 11:11:03</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 10:43:21</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京运转中心_航空_驻站班组]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-05 21:18:53</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [福建_厦门支公司] 发往 [北京运转中心_航空]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-05 20:07:27</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>已取件，到达 [福建_厦门支公司]</td></tr></table>
 
 
 == 4.5 text返回示例 ==
 {{{ 
-2010-08-04 02:26 由【杭州集散】发往【湖州中转站】
-2010-07-12 01:48 【东莞集散】的收件员【企石线】已收件
-2010-07-01 11:19 【泰州海陵】的派件员【刘魁15850876697】正在派件
-2010-06-27 09:59 快件已到达【缙云壶镇】        扫描员是【3161785】上一站是【金华分拨中心】
-2010-06-27 09:45 快件已到达【淮安分拨中心】        扫描员是【王怀标】上一站是【徐州】
-2010-05-22 18:58 由【浦东分拨中心】发往【上海】
-2010-05-21 21:12 快件已到达【杭州集散】        扫描员是【李淑梅】上一站是【无】
-2010-04-25 
+时间	地点和跟踪进度
+2012-07-07 13:35:14	客户已签收
+2012-07-07 09:10:10	离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]
+2012-07-06 19:46:38	到达 [北京_房山营业所_石景山营业厅]
+2012-07-06 15:22:32	离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]
+2012-07-06 15:05:00	到达 [北京_房山营业所_石景山营业厅]
+2012-07-06 13:37:52	离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]
+2012-07-06 12:54:41	到达 [北京_同城中转站]
+2012-07-06 11:11:03	离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]
+2012-07-06 10:43:21	到达 [北京运转中心_航空_驻站班组]
+2012-07-05 21:18:53	离开 [福建_厦门支公司] 发往 [北京运转中心_航空]
+2012-07-05 20:07:27	已取件，到达 [福建_厦门支公司]
 
 }}}
 
