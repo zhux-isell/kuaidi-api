@@ -30,7 +30,7 @@
 == 4.2 Json返回示例 ==
 {{{ 
 
-{"message":"ok","condition":"F00","status":"1","state":"3","data":[{"time":"2012-07-07 13:35:14","context":"客户已签收"},{"time":"2012-07-07 09:10:10","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]"},{"time":"2012-07-06 19:46:38","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 15:22:32","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]"},{"time":"2012-07-06 15:05:00","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 13:37:52","context":"离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 12:54:41","context":"到达 [北京_同城中转站]"},{"time":"2012-07-06 11:11:03","context":"离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]"},{"time":"2012-07-06 10:43:21","context":"到达 [北京运转中心_航空_驻站班组]"},{"time":"2012-07-05 21:18:53","context":"离开 [福建_厦门支公司] 发往 [北京运转中心_航空]"},{"time":"2012-07-05 20:07:27","context":"已取件，到达 [福建_厦门支公司]"}]}
+{"message":"ok","status":"1","state":"3","data":[{"time":"2012-07-07 13:35:14","context":"客户已签收"},{"time":"2012-07-07 09:10:10","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]"},{"time":"2012-07-06 19:46:38","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 15:22:32","context":"离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]"},{"time":"2012-07-06 15:05:00","context":"到达 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 13:37:52","context":"离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]"},{"time":"2012-07-06 12:54:41","context":"到达 [北京_同城中转站]"},{"time":"2012-07-06 11:11:03","context":"离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]"},{"time":"2012-07-06 10:43:21","context":"到达 [北京运转中心_航空_驻站班组]"},{"time":"2012-07-05 21:18:53","context":"离开 [福建_厦门支公司] 发往 [北京运转中心_航空]"},{"time":"2012-07-05 20:07:27","context":"已取件，到达 [福建_厦门支公司]"}]}
 
 }}}
 
@@ -47,12 +47,12 @@
 	</data>
 	<data>
 		<time>2012-07-07 09:10:10</time>
-		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[]</context>
+		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</context>
 	</data>
 	<data>
 		<time>2012-07-06 19:46:38</time>
 		<context>到达 [北京_房山营业所_石景山营业厅]</context></data><data><time>2012-07-06 15:22:32</time>
-		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温亚强]，电话[18001395930]</context>
+		<context>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</context>
 	</data>
 	<data>
 		<time>2012-07-06 15:05:00</time>
@@ -86,6 +86,7 @@
 }}}
 
 == 4.4 html返回示例  ==
+
 <table width='520px' border='0' cellspacing='0' cellpadding='0' id='showtablecontext' style='border-collapse:collapse;border-spacing:0;'><tr><td width='163' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>时间</td><td width='354' style='background:#64AADB;border:1px solid #75C2EF;color:#FFFFFF;font-size:14px;font-weight:bold;height:28px;line-height:28px;text-indent:15px;'>地点和跟踪进度</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-07 13:35:14</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>客户已签收</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-07 09:10:10</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 19:46:38</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 15:22:32</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_房山营业所_石景山营业厅] 派送中，递送员[温]，电话[]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 15:05:00</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 13:37:52</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京_同城中转站] 发往 [北京_房山营业所_石景山营业厅]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 12:54:41</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京_同城中转站]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 11:11:03</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [北京运转中心_航空_驻站班组] 发往 [北京_同城中转站]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-06 10:43:21</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>到达 [北京运转中心_航空_驻站班组]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-05 21:18:53</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>离开 [福建_厦门支公司] 发往 [北京运转中心_航空]</td></tr><tr><td width='163' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>2012-07-05 20:07:27</td><td width='354' style='border:1px solid #DDDDDD;font-size:12px;line-height:22px;padding:3px 5px;'>已取件，到达 [福建_厦门支公司]</td></tr></table>
 
 
