@@ -1,3 +1,4 @@
+#labels Openapi,API,快递接口,快递API,快递查询接口,快递查询API,APIURL
 = 1、API地址 =
         http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
 
