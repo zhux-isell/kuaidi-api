@@ -31,7 +31,7 @@
 
 == 3.3 输入参数说明 ==
 || *名称* || *类型* || *是否必需* || *描述* ||
-||id||String||是||身份授权key，请到 http://www.kuaidi100.com/openapi 进行申请，此key和API URL的Key是通用的（大小敏感）||
+||id||String||是||身份授权key，请点 [http://www.kuaidi100.com/openapi 快递查询API] 进行申请，此key和API URL的Key是通用的（大小敏感）||
 ||com||String||是||要查询的快递公司代码，参考《1.APICode URL所支持的快递公司及参数说明》（大小不敏感）||
 
 == 3.4 返回结果说明 ==
@@ -50,7 +50,7 @@
 
 == 4.3 输入参数说明 ==
 || *名称* || *类型* || *是否必需* || *描述* ||
-||id||String||是||身份授权Key，请到 [http://www.kuaidi100.com/openapi] 进行申请（大小敏感）||
+||id||String||是||身份授权Key，请到  [http://www.kuaidi100.com/openapi 快递查询API] 进行申请（大小敏感）||
 ||com||String||是||要查询的快递公司代码，不支持中文，需要和APICode URL配合的公司见《1.APICode URL所支持的快递公司及参数说明》，不需要的见 [Open_API_API_URL] 第7章的《API URL 所支持的快递公司及参数说明》 。如果找不到您所需的公司，请发邮件至 kuaidi@kingdee 咨询（大小不敏感）||
 ||nu||String ||是||要查询的快递单号，请勿带特殊符号，不支持中文（大小不敏感）||
 ||valicode||String ||否||有两种意义：1、*用户输入的验证码，不在《1.APICode URL所支持的快递公司及参数说明》之列的公司请忽略；*  2、如果是佳吉物流公司，则要用此参数传入电话号码，其他公司请忽略 ||
