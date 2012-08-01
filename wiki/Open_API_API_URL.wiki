@@ -190,8 +190,8 @@
 || ||quanyikuaidi||全一快递||
 || ||quanfengkuaidi||全峰快递||
 ||*S*|| || ||
-|| ||shentong||申通速递（暂不支持，请转用[Open_API_Chaxun_URL]）||
-|| ||shentong||申通E物流（暂不支持，请转用[Open_API_Chaxun_URL]）||
+|| ||shentong||申通（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||shentong||申通E物流（暂不支持，请转用[Open_API_APICode_URL]）||
 || ||shunfeng||顺丰速递（暂不支持，请转用[Open_API_APICode_URL]）||
 || ||santaisudi||三态速递||
 || ||shenghuiwuliu||盛辉物流||
