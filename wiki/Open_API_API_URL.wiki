@@ -117,9 +117,9 @@
          * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
 
          * 技术支持：
-  # 发邮件至 kuaidi@kingdee.com，
-  # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛]，
-  # QQ、电话等：见获得授权key的邮件。
+                  # 发邮件至 kuaidi@kingdee.com，
+                  # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛]，
+                  # QQ、电话等：见获得授权key的邮件。
 
  
 = 7、附录 =
