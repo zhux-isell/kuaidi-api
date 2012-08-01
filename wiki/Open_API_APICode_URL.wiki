@@ -1,5 +1,5 @@
 #labels OPENAPI,API,APICodeURL
-= 1.APICode URL所支持的快递公司及参数说明 =
+= 1.APICode URL所支持的快递公司及参数说明其他快递公司请直接使用 [Open_API_API_URL] =
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*E*|| || ||
 || ||ems||EMS||
@@ -9,7 +9,8 @@
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
 
-=== 其他快递公司请直接使用 [Open_API_API_URL] ===
+         === 其他快递公司请直接使用 [Open_API_API_URL] ===
+
 
 = 2.利用APICode URL创建快递查询程序的整体步骤  =
 === 第一步 ===
