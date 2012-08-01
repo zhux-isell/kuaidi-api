@@ -94,7 +94,7 @@
          目前提供最土团购等插件支持，请点 [http://www.kuaidi100.com/openapi/api_6_02.shtml 快递查询插件] 下载使用。如果找不到您所需的插件，可以参考《6.FAQ及开发支持》的方式与我们联系。
 
 = 6.FAQ及开发支持 =
-         * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
+         * FAQ：[http://www.kuaidi100.com/help/qa.shtml 快递查询接口(API)常见问题]
 
          * 技术支持：
                   # 发邮件至 kuaidi@kingdee.com，
