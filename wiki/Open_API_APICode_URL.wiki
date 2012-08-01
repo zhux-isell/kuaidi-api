@@ -1,5 +1,5 @@
 #labels OPENAPI,API,APICodeURL
-= 1.APICode URL所支持的快递公司及参数说明 =
+= 1.APICode URL支持的快递公司及参数说明 =
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*E*|| || ||
 || ||ems||EMS||
