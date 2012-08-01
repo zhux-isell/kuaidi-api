@@ -9,7 +9,7 @@
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
 
-         *其他快递公司请直接使用 [Open_API_API_URL]*
+         * 其他快递公司请直接使用 [Open_API_API_URL] *
 
 = 2.利用APICode URL创建快递查询程序的整体步骤  =
 === 第一步 ===
