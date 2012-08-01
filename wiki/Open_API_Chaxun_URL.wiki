@@ -122,4 +122,4 @@
 ||zhimakaimen,芝麻开门||芝麻开门||
 
 == 本文档下载地址 ==
-[http://kuaidi-api.googlecode.com/files/kuaidi100api.zip 下载地址]
+[http://kuaidi-api.googlecode.com/files/Chaxun%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%282012.8.1%E6%9B%B4%E6%96%B0%29.doc 下载地址]
