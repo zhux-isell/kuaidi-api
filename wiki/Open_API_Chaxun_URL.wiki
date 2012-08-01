@@ -10,7 +10,21 @@
 
      直接跳转到快递100的快递公司二级页面显示查询结果。
 
-= 4.附录 =
+= 4.效果试用和开发示范 =
+     * [http://www.kuaidi100.com/openapi/api_3_01.shtml 快递查询跳转API效果试用]
+ 
+     * [http://www.kuaidi100.com/openapi/api_3_02.shtml 快递查询跳转API开发示范]
+
+= 5.技术支持 =
+    * FAQ：[http://www.kuaidi100.com/help/qa.shtml 快递查询接口(API)常见问题]
+
+    * 技术支持：
+        # 发邮件至 kuaidi@kingdee.com，
+        # 论坛，
+        # QQ、电话等：见获得授权key的邮件。 
+
+
+= 6.附录 =
 == 表1：Chaxun URL支持的快递公司及参数说明 ==
 
 ||*模糊输入*||*公司名称*||
