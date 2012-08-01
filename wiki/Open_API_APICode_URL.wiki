@@ -74,20 +74,21 @@ API用户为每次用户查询建立一个新的会话并与快递API服务通�
 ||state|| * 快递单当前的状态 * 。0：在途中,1：已发货，2：疑难件，3： *已签收* ，4：已退货。该状态还在不断完善中，有更多的参数需求，欢迎发邮件至 kuaidi@kingdee.com 提出||
 ||status||查询的结果状态。0：运单暂无结果，1：查询成功，2：接口出现异常，408：验证码出错（仅适用于APICode url，可忽略) 。遇到其他情况，请按获得身份授权key的邮件中的方法获得技术支持。||
 
-= 5.效果演示和开发示范 =
+= 5.效果演示、开发示范和插件支持 =
 == 5.1 效果演示==
          地址：http://www.shihui.cn/app/order_query.html
          示例单号：
          SH-SDD-12060515084350、SH-SDD-12060509465242
 
-== 5.2 Java版代码示范、时序图、关键步骤代码示范 ==
-         [http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar Java版下载]
+== 5.2 开发示范 ==
+         [http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar Java版代码示范]（包括时序图、关键步骤代码示范和DEMO代码）
 
-== 5.3 PHP版代码示范 ==
-         [http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar PHP版下载]
+         [http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar PHP版代码示范]（包括整体步骤、关键步聚代码示范和DEMO代码）
 
-== 5.4 ASP.NET版代码示范 ==
-         [http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar ASP.NET版下载]
+         [http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar ASP.NET版代码示范]（包括整体步骤、关键步聚代码示范和DEMO代码）
+
+== 5.3 插件支持 ==
+         插件支持：http://www.kuaidi100.com/openapi/api_6_02.shtml
 
 = 6.FAQ及开发支持 =
          * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
