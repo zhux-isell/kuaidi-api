@@ -9,7 +9,9 @@
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
 
-= 2.利用带验证码API创建快递查询程序的整体步骤  =
+         *其他快递公司请直接使用 [Open_API_API_URL]*
+
+= 2.利用APICode URL创建快递查询程序的整体步骤  =
 === 第一步 ===
          程序利用 *APICode URL* 获得验证码图片，显示出来。同时，程序获取响应头Response Headers中Set-Cookie的值，将Set-Cookie中的JSESSIONID的值取出。（详见后面《3.APICode URL使用说明》
 
