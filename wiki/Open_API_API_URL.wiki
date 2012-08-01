@@ -109,12 +109,12 @@
 }}}
 
 = 5、开发案例及插件支持 =
-         * 目前提供ASP、ASP.NET、PHP和Java等四个版本的开发实例，请到[http://www.kuaidi100.com/openapi/api_2_03.shtml]下载。
+         * 目前提供ASP、ASP.NET、PHP和Java等四个版本的开发实例，请点[http://www.kuaidi100.com/openapi/api_2_03.shtml 快递查询开发示范]下载。
          
-         * 插件支持：http://www.kuaidi100.com/openapi/api_6_02.shtml
+         * 插件下载请点:[http://www.kuaidi100.com/openapi/api_6_02.shtml 快递查询插件]
 
 = 6、FAQ及技术支持 =
-         * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
+         * FAQ：请点 [http://www.kuaidi100.com/help/qa.shtml 快递查询接口(API)常见问题]
 
          * 技术支持：
                   # 发邮件至 kuaidi@kingdee.com，
