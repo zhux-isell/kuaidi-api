@@ -81,14 +81,10 @@ API用户为每次用户查询建立一个新的会话并与快递API服务通�
          SH-SDD-12060515084350、SH-SDD-12060509465242
 
 == 5.2 开发示范 ==
-         [http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar Java版代码示范]（包括时序图、关键步骤代码示范和DEMO代码）
-
-         [http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar PHP版代码示范]（包括整体步骤、关键步聚代码示范和DEMO代码）
-
-         [http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar ASP.NET版代码示范]（包括整体步骤、关键步聚代码示范和DEMO代码）
+         目前提供ASP.NET、PHP和Java三个版本的开发示范，包括时序图、关键步骤代码示范和DEMO代码，请到 http://www.kuaidi100.com/openapi/api_4_03.shtml 下载使用。
 
 == 5.3 插件支持 ==
-         插件支持：http://www.kuaidi100.com/openapi/api_6_02.shtml
+         目前提供最土团购等插件支持，请到 http://www.kuaidi100.com/openapi/api_6_02.shtml 下载使用。如果找不到您所需的插件，可以参考《6.FAQ及开发支持》的方式与我们联系。
 
 = 6.FAQ及开发支持 =
          * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
