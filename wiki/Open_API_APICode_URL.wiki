@@ -88,10 +88,10 @@
          SH-SDD-12060515084350、SH-SDD-12060509465242
 
 == 5.2 开发示范 ==
-         目前提供ASP.NET、PHP和Java三个版本的开发示范，包括时序图、关键步骤代码示范和DEMO代码，请到 http://www.kuaidi100.com/openapi/api_4_03.shtml 下载使用。
+         目前提供ASP.NET、PHP和Java三个版本的开发示范，包括时序图、关键步骤代码示范和DEMO代码，请点 [http://www.kuaidi100.com/openapi/api_4_03.shtml 快递查询开发示范] 下载使用。
 
 == 5.3 插件支持 ==
-         目前提供最土团购等插件支持，请到 http://www.kuaidi100.com/openapi/api_6_02.shtml 下载使用。如果找不到您所需的插件，可以参考《6.FAQ及开发支持》的方式与我们联系。
+         目前提供最土团购等插件支持，请点 [http://www.kuaidi100.com/openapi/api_6_02.shtml 快递查询插件] 下载使用。如果找不到您所需的插件，可以参考《6.FAQ及开发支持》的方式与我们联系。
 
 = 6.FAQ及开发支持 =
          * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
