@@ -1,4 +1,4 @@
-#labels OPENAPI,API,APICodeURL
+#labels OPENAPI,API,快递接口,快递API,快递查询接口,快递查询API,APICodeURL
 = 1.APICode URL支持的快递公司及参数说明 =
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*E*|| || ||
