@@ -1,56 +1,41 @@
 #labels OPENAPI,API,APICodeURL
-= 1.创建带验证码的快递查询程序 =
-== 整体步骤 ==
-第一步：程序利用 *APICode URL* 获得验证码图片，显示出来。同时，程序获取响应头Response Headers中Set-Cookie的值，将Set-Cookie中的JSESSIONID的值取出。（见后面《3.APICode URL使用说明》
-
-第二步：用户输入图片中的验证码，并提交
-
-第三步：程序构建一个http请求头，将第一步中获得的JESSIONID的值赋给Cookie，然后将快递公司编码、运单号、验证码值等参数传进 *API URL* ，查询并获得结果最后将结果显示出来（见后面《4.API URL使用说明》）
-
-== 效果演示：==
-地址：http://www.shihui.cn/app/order_query.html
-示例单号：
-SH-SDD-12060515084350、SH-SDD-12060509465242
-
-== 特别说明 ==
-1、获得快递单号信息的仍然采用原来的API URL，只是启用原来的 *“valicode”* 参数，该参数的值需要通过“APICode URL”来获得。
-
-2、通过APICode URL获得验证码必须与通过API URL进行查询两个请求保持在同一个会话内！
-
-
-== 需要输入验证码的快递公司 ==
+= 1.APICode URL所支持的快递公司及参数说明 =
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*E*|| || ||
 || ||ems||EMS||
-||*N*|| || ||
-|| ||nanjing||南京100||
 ||*S*|| || ||
 || ||shentong||shentong ||
 || ||shunfeng||顺丰||
-||*X*|| || ||
-|| ||xingchengjibian||星晨急便||
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
 
+= 2.利用带验证码API创建快递查询程序的整体步骤  =
+=== 第一步 ===
+         程序利用 *APICode URL* 获得验证码图片，显示出来。同时，程序获取响应头Response Headers中Set-Cookie的值，将Set-Cookie中的JSESSIONID的值取出。（详见后面《3.APICode URL使用说明》
 
+=== 第二步 ===
+         用户输入图片中的验证码，并提交
 
-= 2.APICode URL使用说明 =
-== 2.1 作用 ==
-部分快递公司在查询时需要输入验证码，此API为用户提供验证码调用接口，用以显示验证码。
+=== 第三步 ===
+         程序构建一个http请求头，将第一步中获得的JESSIONID的值赋给Cookie，然后将快递公司编码、运单号、验证码值等参数传进 *API URL* ，查询并获得结果，最后显示出来（详见后面《4.API URL使用说明》）
 
-== 2.2 API地址 ==
-http://api.kuaidi100.com/verifyCode?id=[]&com=[]
+= 3.APICode URL使用说明 =
+== 3.1 作用 ==
+         部分快递公司在查询时需要输入验证码，此API为用户提供验证码调用接口，用以显示验证码图片。
 
-== 2.3 参数说明 ==
+== 3.2 API地址 ==
+         http://api.kuaidi100.com/verifyCode?id=[]&com=[]
+
+== 3.3 输入参数说明 ==
 || *名称* || *类型* || *是否必需* || *描述* ||
 ||id||String||是||身份key，为16位字母和数字的组合，请登陆友商快递100网站进行申请.（大小敏感）||
 ||com||String||是||要查询的快递公司代码，参考《需要输入验证码的快递公司参数》（大小不敏感）||
 
-== 2.4 返回数据 ==
-返回验证码图片（图片的数据），如果所调用公司查询无需验证码，则无返回数据。
+== 3.4 返回结果说明 ==
+         返回一张验证码图片（图片的数据），如果所调用公司查询无需验证码，则无返回数据。
 
 
-== 2.5 获取JSESSIONID的方法 ==
+== 3.5 获取JSESSIONID的方法 ==
 （详见《开发示范》
 API使用用户必须保证获取验证码的请求与当次查询请求在同一个会话（session）中进行。
 
@@ -63,26 +48,24 @@ API用户始终使用同一个会话与快递100API服务通信，会导致当�
 API用户为每次用户查询建立一个新的会话并与快递API服务通信，保证获取的验证码是有效的。
 
 
-= 3.API URL使用说明 =
-== 3.1 说明 ==
-作用：查询并获得指定快递公司、快递单号的快递信息。
-更为详细的说明请参考：[Open_API_API_URL]
+= 4.API URL使用说明 =
+== 4.1 作用 ==
+         查询并获得指定快递公司、快递单号的快递信息。更为详细的说明请参考：[Open_API_API_URL]
 
-== 3.2 API地址 ==
-http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
+== 4.2 API地址 ==
+        http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=[0|1]&order=[desc|asc] 
 
-== 3.3 参数说明 ==
+== 4.3 输入参数说明 ==
 || *名称* || *类型* || *是否必需* || *描述* ||
 ||id||String||是||身份授权Key，请到 [http://www.kuaidi100.com/openapi] 进行申请（大小敏感）||
-||com||String||是||要查询的快递公司代码，不支持中文，需要和APICode URL配合的公司见《需要输入验证码的快递公司》，不需要的见 [Open_API_API_URL] 第7章的《API URL 所支持的快递公司及参数说明》 。如果找不到您所需的公司，请发邮件至 kuaidi@kingdee 咨询（大小不敏感）||
+||com||String||是||要查询的快递公司代码，不支持中文，需要和APICode URL配合的公司见《APICode URL所支持的快递公司及参数说明》，不需要的见 [Open_API_API_URL] 第7章的《API URL 所支持的快递公司及参数说明》 。如果找不到您所需的公司，请发邮件至 kuaidi@kingdee 咨询（大小不敏感）||
 ||nu||String ||是||要查询的快递单号，请勿带特殊符号，不支持中文（大小不敏感）||
-||valicode||String ||否||此参数意义：1、*当前查询要输入的验证码，需要输入验证码的快递公司需要输入此参数；此参数可以通过“APICode URL”获得，详见APICode URL的介绍。*2、查询快递的电话号码，目前只有佳吉物流需要这个参数 ||
+||valicode||String ||否||1、*用户输入的验证码，不在《《APICode URL所支持的快递公司及参数说明》之列的公司请忽略；*  2、如果是佳吉物流公司，则要用此参数传入电话号码，其他公司请忽略 ||
 ||show||String||否||返回类型。0：返回json字符串，1：返回xml对象，2：返回html对象，3：返回text文本。如果不填，默认返回json字符串||
 ||muti||Stirng||是||返回信息数量，1:返回多行完整的信息，0:只返回最新一行信息。不填默认返回多行||
 ||order||Stirng||否||排序。desc：按时间由新到旧排列，asc：按时间由旧到新排列。不填默认返回倒序（大小不敏感）||
 
-
-== 3.4 返回结果说明 ==
+== 4.4 返回结果说明 ==
 || *字段名称* || *字段含义* ||
 ||Message||消息体||
 ||Data||数据集合||
@@ -91,12 +74,25 @@ http://api.kuaidi100.com/api?id=[]&com=[]&nu=[]&valicode=[]&show=[0|1|2|3]&muti=
 ||state|| * 快递单当前的状态 * 。0：在途中,1：已发货，2：疑难件，3： *已签收* ，4：已退货。该状态还在不断完善中，有更多的参数需求，欢迎发邮件至 kuaidi@kingdee.com 提出||
 ||status||查询的结果状态。0：运单暂无结果，1：查询成功，2：接口出现异常，408：验证码出错（仅适用于APICode url，可忽略) 。遇到其他情况，请按获得身份授权key的邮件中的方法获得技术支持。||
 
-= 4.开发示范 =
-== 4.1 Java版代码示范、时序图、关键步骤代码示范 ==
-http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar
+= 5.效果演示和开发示范 =
+== 5.1 效果演示==
+         地址：http://www.shihui.cn/app/order_query.html
+         示例单号：
+         SH-SDD-12060515084350、SH-SDD-12060509465242
 
-== 4.2 PHP版代码示范 ==
-http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar
+== 5.2 Java版代码示范、时序图、关键步骤代码示范 ==
+         [http://kuaidi-api.googlecode.com/files/APICode%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%8811.29%EF%BC%89.rar Java版下载]
 
-== 4.3 ASP.NET版代码示范 ==
-http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar
+== 5.3 PHP版代码示范 ==
+         [http://kuaidi-api.googlecode.com/files/APICode-PHP%E7%89%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%2820120606-1%29.rar PHP版下载]
+
+== 5.4 ASP.NET版代码示范 ==
+         [http://kuaidi-api.googlecode.com/files/ASP.NET%E7%89%88APICode%20URL%E5%BC%80%E5%8F%91%E7%A4%BA%E8%8C%83.rar ASP.NET版下载]
+
+= 6.FAQ及开发支持 =
+         * 常见问题FAQ：http://www.kuaidi100.com/help/qa.shtml
+
+         * 技术支持：
+                  # 发邮件至 kuaidi@kingdee.com，
+                  # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛]，
+                  # QQ、电话等：见获得授权key的邮件。
