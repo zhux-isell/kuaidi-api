@@ -145,8 +145,8 @@
 || ||dhl||DHL||
 || ||dsukuaidi||D速快递||
 ||*E*|| || ||
-|| ||ems||EMS（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||ems||E邮宝（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||ems||EMS（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询接口]）||
+|| ||ems||E邮宝（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询API]）||
 ||*F*|| || ||
 || ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
 || ||feikangda||飞康达物流||
@@ -155,9 +155,9 @@
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
-|| ||youzhengguonei||挂号信（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||youzhengguonei||国内邮件（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||youzhengguoji||国际邮件（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||youzhengguonei||挂号信（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递接口]）||
+|| ||youzhengguonei||国内邮件（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递API]）||
+|| ||youzhengguoji||国际邮件（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 emsAPI]）||
 || ||gls||GLS||
 ||*H*|| || ||
 || ||huitongkuaidi||汇通快运||
