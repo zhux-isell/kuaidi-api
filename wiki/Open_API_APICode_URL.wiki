@@ -40,6 +40,8 @@
 
 == 3.5 获取JSESSIONID的方法 ==
          （详见后面《5.2开发示范》，下载包中有详细介绍的文档)
+         JESSIONID的值所在的位置如下：
+         [http://kuaidi-api.googlecode.com/files/JESSIONID.jpg]
 
 = 4.API URL使用说明 =
 == 4.1 作用 ==
