@@ -23,7 +23,7 @@
         # 发邮件至 kuaidi@kingdee.com，
         # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛],
         # QQ、电话等：见获得授权key的邮件。 
-
+    * 更多API类型，请到 [http://www.kuaidi100.com/openapi 快递单号查询API]      
 
 = 6.附录 =
 == 表1：Chaxun URL支持的快递公司及参数说明 ==
