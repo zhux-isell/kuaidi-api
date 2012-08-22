@@ -4,7 +4,8 @@
 ||*E*|| || ||
 || ||ems||EMS||
 ||*S*|| || ||
-|| ||shentong||伸-通||
+|| ||shentong||伸通||
+|| ||shentong||伸通e物流||
 || ||shunfeng||顺丰||
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
