@@ -165,8 +165,9 @@
 || ||huaxialongwuliu||华夏龙||
 || ||tiantian||海航天天||
 || ||haiwaihuanqiu||海外环球||
+|| ||hebeijianhua||河北建华（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限||
 ||*J*|| || ||
-|| ||jinguangsudikuaijian||京广速递||'
+|| ||jinguangsudikuaijian||京广速递||
 || ||jixianda||急先达||
 || ||jiajiwuliu||佳吉物流||
 || ||jiayiwuliu||佳怡物流||
@@ -207,6 +208,7 @@
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
 || ||tnt||TNT||
+|| ||tonghetianxia||通和天下（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 ||*U*|| || ||
 || ||ups||UPS||
 ||*W*|| || ||
@@ -241,6 +243,7 @@
 || ||zhongtong||中通速递||
 || ||zhongyouwuliu||中邮物流||
 || ||zhimakaimen||芝麻开门||
+|| ||zhengzhoujianhua||郑州建华（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 
 ==本文档下载地址：==
 [http://kuaidi-api.googlecode.com/files/API%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%882012.7.31%E6%9B%B4%E6%96%B0%EF%BC%89.docx 下载地址]
