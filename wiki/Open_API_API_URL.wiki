@@ -135,9 +135,12 @@
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
 || ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||bangsongwuliu||邦送物流||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
+|| ||city100||城市100||
+|| ||chuanxiwuliu||传喜物流||
 ||*D*|| || ||
 || ||datianwuliu||大田物流||
 || ||debangwuliu||德邦物流||
@@ -152,6 +155,7 @@
 || ||feikangda||飞康达物流||
 || ||feikuaida||飞快达||
 || ||rufengda||凡客如风达||
+|| ||fengxingtianxia||风行天下||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
@@ -173,6 +177,7 @@
 || ||jiayiwuliu||佳怡物流||
 || ||jiayunmeiwuliu||加运美||
 || ||jinyuekuaidi||晋越快递||
+|| ||jietekuaidi||捷特快递||
 ||*K*|| || ||
 || ||kuaijiesudi||快捷速递||
 ||*L*|| || ||
@@ -183,6 +188,7 @@
 || ||lianbangkuaidi||联邦快递（国内）（说明：国外的请用 fedex）||
 ||*M*|| || ||
 || ||minghangkuaidi||民航快递||
+|| ||menduimen||门对门||
 ||*R*|| || ||
 || ||rufengda||如风达快递||
 ||*Q*|| || ||
@@ -190,6 +196,8 @@
 || ||quanjitong||全际通||
 || ||quanritongkuaidi||全日通||
 || ||quanyikuaidi||全一快递||
+|| ||quanfengkuaidi||全峰快递||
+|| ||sevendays||七天连锁||
 || ||quanfengkuaidi||全峰快递||
 ||*S*|| || ||
 || ||shentong||申通（暂不支持，请转用[Open_API_APICode_URL]）||
@@ -204,6 +212,7 @@
 || ||shandonghaihong||山东海红||
 || ||saiodi||赛澳递||
 || ||haihongwangsong||山东海红（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
+|| ||sxhongmajia||山西红马甲（暂只能查天天网的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 ||*T*|| || ||
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
@@ -237,6 +246,8 @@
 || ||zhimakaimen||芝麻开门||
 || ||youzhengguonei||邮政国内给据（暂不支持，请转用[Open_API_APICode_URL]）||
 || ||youzhengguoji||邮政国际（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||yitongfeihong||一统飞鸿（暂只能查天天网的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
+|| ||yinjiesudi||银捷速递||
 ||*Z*|| || ||
 || ||zhaijisong||宅急送||
 || ||zhongtiewuliu||中铁快运||
