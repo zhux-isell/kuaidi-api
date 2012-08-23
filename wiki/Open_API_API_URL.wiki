@@ -178,7 +178,7 @@
 || ||lianhaowuliu||联昊通||
 || ||longbanwuliu||龙邦物流||
 || ||lanbiaokuaidi||蓝镖快递||
-|| ||lejiedi||乐捷递（暂不支持）||
+|| ||lejiedi||乐捷递（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限||
 || ||lianbangkuaidi||联邦快递（国内）（说明：国外的请用 fedex）||
 ||*M*|| || ||
 || ||minghangkuaidi||民航快递||
@@ -202,6 +202,7 @@
 || ||santaisudi||三态速递||
 || ||shandonghaihong||山东海红||
 || ||saiodi||赛澳递||
+|| ||haihongwangsong||山东海红（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 ||*T*|| || ||
 || ||tiandihuayu||天地华宇||
 || ||tiantian||天天快递||
@@ -210,7 +211,8 @@
 || ||ups||UPS||
 ||*W*|| || ||
 || ||wanjiawuliu||万家物流||
-|| ||wxwl||万象物流（即将支持）||
+|| ||wxwl||万象物流||
+|| ||weitepai||微特派||
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
 || ||xinfengwuliu||信丰物流||
@@ -238,6 +240,7 @@
 || ||zhongtiewuliu||中铁快运||
 || ||zhongtong||中通速递||
 || ||zhongyouwuliu||中邮物流||
+|| ||zhimakaimen||芝麻开门||
 
 ==本文档下载地址：==
 [http://kuaidi-api.googlecode.com/files/API%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%EF%BC%882012.7.31%E6%9B%B4%E6%96%B0%EF%BC%89.docx 下载地址]
