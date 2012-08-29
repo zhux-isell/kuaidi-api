@@ -228,7 +228,7 @@
 || ||shangda||上大物流||
 || ||santaisudi||三态速递||
 || ||haihongwangsong||山东海红||
-|| ||saiodi||赛澳递||
+|| ||saiaodi||赛澳递||
 || ||haihongwangsong||山东海红（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 || ||sxhongmajia||山西红马甲（暂只能查天天网的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 || ||shenganwuliu||圣安物流||
