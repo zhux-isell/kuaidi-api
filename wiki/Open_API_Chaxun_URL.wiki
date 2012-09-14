@@ -1,32 +1,8 @@
 #labels OPENAPI,快递查询接口,快递查询API,快递接口,快递API,ChaxunURL
-= 1.API地址 =
-	http://www.kuaidi100.com/chaxun?com=[]&nu=[] 
+= 更新公告 =
+chaxun url的使用说明已迁往[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转查询接口]说明
 
-= 2.传入参数说明 =
-||*名称*||*类型*||*是否必需*||*	描述*||
-||com||String||是||要查询的快递公司的代码，支持中文和模糊输入，支持本网站的所有的快递公司，对应的公司代码如《表1：Chaxun URL 支持的快递公司及参数说明》。如果找不到您所需的公司，请发邮件至 kuaidi@kingdee 咨询（大小不敏感）||
-||nu||String||是||要查询的快递单号，请勿带特殊符号，不支持中文||
-
-= 3.返回结果说明 =
-
-     直接跳转到快递100的快递公司二级页面显示查询结果。
-
-= 4.效果试用和开发示范 =
-     * [http://www.kuaidi100.com/openapi/api_3_01.shtml 快递查询跳转API效果试用]
- 
-     * [http://www.kuaidi100.com/openapi/api_3_02.shtml 快递查询跳转API开发示范]
-
-= 5.技术支持 =
-    * FAQ：[http://www.kuaidi100.com/help/qa.shtml 快递查询接口(API)常见问题]
-
-    * 技术支持：
-        # 发邮件至 kuaidi@kingdee.com，
-        # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛],
-        # QQ、电话等：见获得授权key的邮件。 
-    * 更多API类型，请到 [http://www.kuaidi100.com/openapi 快递单号查询API]      
-
-= 6.附录 =
-== 表1：Chaxun URL支持的快递公司及参数说明 ==
+= 表1：Chaxun URL支持的快递公司及参数说明 =
 
 ||*模糊输入*||*公司名称*||
 ||aae, aae专递||aae全球专递||
@@ -121,6 +97,35 @@
 ||zhongyouwuliu,zhongyou,zy,中邮||中邮物流||
 ||zhongxinda,忠信达||忠信达||
 ||zhimakaimen,芝麻开门||芝麻开门||
+
+= 1.API地址 =
+	http://www.kuaidi100.com/chaxun?com=[]&nu=[] 
+
+= 2.传入参数说明 =
+||*名称*||*类型*||*是否必需*||*	描述*||
+||com||String||是||要查询的快递公司的代码，支持中文和模糊输入，支持本网站的所有的快递公司，对应的公司代码如《表1：Chaxun URL 支持的快递公司及参数说明》。如果找不到您所需的公司，请发邮件至 kuaidi@kingdee 咨询（大小不敏感）||
+||nu||String||是||要查询的快递单号，请勿带特殊符号，不支持中文||
+
+= 3.返回结果说明 =
+
+     直接跳转到快递100的快递公司二级页面显示查询结果。
+
+= 4.效果试用和开发示范 =
+     * [http://www.kuaidi100.com/openapi/api_3_01.shtml 快递查询跳转API效果试用]
+ 
+     * [http://www.kuaidi100.com/openapi/api_3_02.shtml 快递查询跳转API开发示范]
+
+= 5.技术支持 =
+    * FAQ：[http://www.kuaidi100.com/help/qa.shtml 快递查询接口(API)常见问题]
+
+    * 技术支持：
+        # 发邮件至 kuaidi@kingdee.com，
+        # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛],
+        # QQ、电话等：见获得授权key的邮件。 
+    * 更多API类型，请到 [http://www.kuaidi100.com/openapi 快递单号查询API]      
+
+= 6.附录 =
+
 
 == 本文档下载地址 ==
 [http://kuaidi-api.googlecode.com/files/Chaxun%20URL%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%282012.8.1%E6%9B%B4%E6%96%B0%29.doc 下载地址]
