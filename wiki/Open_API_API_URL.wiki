@@ -1,6 +1,6 @@
 #labels Openapi,API,快递接口,快递API,快递查询接口,快递查询API,APIURL
 = 更新公告 =
-API的使用说明已迁往[http://www.kuaidi100.com/openapi/api_2_02.shtml?typeid=2 快递100查询接口说明]
+API的使用说明已迁快递100网站，要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml?typeid=2 快递100查询接口说明]。
 
 = API URL 所支持的快递公司及参数说明 =
 
