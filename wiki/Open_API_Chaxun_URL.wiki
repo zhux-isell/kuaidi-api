@@ -1,6 +1,6 @@
 #labels OPENAPI,快递查询接口,快递查询API,快递接口,快递API,ChaxunURL
 = 更新公告 =
-chaxun url的使用说明已迁往[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转查询接口]说明
+chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的使用方法请点击[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转查询接口]。
 
 = 表1：Chaxun URL支持的快递公司及参数说明 =
 
