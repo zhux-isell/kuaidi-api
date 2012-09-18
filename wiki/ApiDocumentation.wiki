@@ -18,9 +18,8 @@
  能返回多种格式的查询结果，具备众多参数供调用。（需通过key验证）
  [http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL  详细请查看文档] 
 
-==APIOne URL== 
- 能返回多种格式的查询结果，具备众多参数供调用，仅返回一条查询结果和回调URL。（不需通过key验证）
- [http://code.google.com/p/kuaidi-api/wiki/Open_API_APIOne_URL 详细请查看文档] 
+==APICode URL== 
+  支持EMS、伸通和顺风等快递公司，需要用户手动输入验证码。[http://code.google.com/p/kuaidi-api/wiki/Open_API_APICode_URL 详细请查看文档] 
 
 
        如有任何问题请及时与我们联络（kuaidi@kingdee.com），如有成功应用也可以提供一些截图做应用的公开示例，我们可以协助进行推广。
