@@ -12,7 +12,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[Open_API_APICode_URL],要无验证码查询请联系企业QQ4008800898）||
 || ||bangsongwuliu||邦送物流||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
@@ -31,9 +31,9 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||dsukuaidi||D速快递||
 || ||disifang||递四方||
 ||*E*|| || ||
-|| ||ems||EMS(中文结果)（需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询接口]的配合）||
-|| ||ems||E邮宝（需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询API]的配合）||
-|| ||emsen||EMS（英文结果）需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询API]的配合||
+|| ||ems||EMS(中文结果)（需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询接口]的配合,要无验证码查询请联系企业QQ4008800898）||
+|| ||ems||E邮宝（需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询API]的配合,要无验证码查询请联系企业QQ4008800898）||
+|| ||emsen||EMS（英文结果）需要[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递查询API]的配合,要无验证码查询请联系企业QQ4008800898||
 ||*F*|| || ||
 || ||fedex||Fedex（国际）（说明：Fedex是国际，国内的请用“lianbangkuaidi”）||
 || ||fedexus||FedEx-美国||
@@ -45,7 +45,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
 || ||guangdongyouzhengwuliu||广东邮政||
-|| ||youzhengguonei||挂号信（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递接口]）||
+|| ||youzhengguonei||挂号信（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递接口],要无验证码查询请联系企业QQ4008800898）||
 || ||youzhengguonei||国内邮件（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 ems快递API]）||
 || ||youzhengguoji||国际邮件（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=0 emsAPI]）||
 || ||gls||GLS||
