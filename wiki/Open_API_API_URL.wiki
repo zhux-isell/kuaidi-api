@@ -135,7 +135,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
 || ||xinfengwuliu||信丰物流||
-|| ||xingchengjibian||星晨急便（暂不支持，请转用[Open_API_APICode_URL]）||
+|| ||xingchengjibian||星晨急便（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API],要无验证码查询请联系企业QQ4008800898）||
 || ||xinhongyukuaidi||鑫飞鸿||
 || ||cces||希伊艾斯(CCES)||
 || ||xinbangwuliu||新邦物流||
@@ -145,8 +145,8 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||yuantong||圆通速递||
 || ||yunda||韵达快运||
 || ||yuntongkuaidi||运通快递||
-|| ||youzhengguonei||邮政国内给据（暂不支持，请转用[Open_API_APICode_URL]）||
-|| ||youzhengguoji||邮政国际（需要[Open_API_APICode_URL]的配合）||
+|| ||youzhengguonei||邮政国内给据（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API],要无验证码查询请联系企业QQ4008800898）||
+|| ||youzhengguoji||邮政国际（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API],要无验证码查询请联系企业QQ4008800898）||
 || ||yuanchengwuliu||远成物流||
 || ||yafengsudi||亚风速递||
 || ||yibangwuliu||一邦速递||
