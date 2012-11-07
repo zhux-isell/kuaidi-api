@@ -12,7 +12,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2],要无验证码查询请联系企业QQ4008800898）||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API],要无验证码查询请联系企业QQ4008800898）||
 || ||bangsongwuliu||邦送物流||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
@@ -101,10 +101,10 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*R*|| || ||
 || ||rufengda||如风达快递||
 ||*S*|| || ||
-|| ||shentong||申通（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2]）||
-|| ||shentong||申通E物流（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2]）||
-|| ||shunfeng||顺丰速递（中文结果）（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2]）||
-|| ||shunfengen||顺丰（英文结果）（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2]）||
+|| ||shentong||申通（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API]）||
+|| ||shentong||申通E物流（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API]）||
+|| ||shunfeng||顺丰速递（中文结果）（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API]）||
+|| ||shunfengen||顺丰（英文结果）（暂不支持，请转用[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转API]）||
 || ||santaisudi||三态速递||
 || ||shenghuiwuliu||盛辉物流||
 || ||suer||速尔物流||
