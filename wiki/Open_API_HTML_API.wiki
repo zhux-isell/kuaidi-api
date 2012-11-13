@@ -1,0 +1,31 @@
+#labels Openapi,API,快递接口,快递API,快递查询接口,快递查询API
+#为了解决EMS、顺丰和伸通问题，同时为了解决带验证码API（APICode url）的集成难、稳定性差等问题，推出此API。
+
+= HtmlAPI =
+
+
+
+
+= Details =
+
+= 一、API地址：=
+http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]
+
+= 二、传入参数说明：=
+|| *参数* || *是否必需* || *说明* ||
+|| key || 是 || 快递100的授权key，如果已有快递100的key，可以直接使用已有的；如果还没有申请，请到 [http://www.kuaidi100.com/openapi/api_2_02.shtml?typeid=1 快递查询API]提交申请。||
+|| com || 是 || 快递公司编码，请到http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL查看||
+|| nu || 是 || 快递单号  ||
+
+= 三、返回结果说明：=
+   返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23，直接访问或用iframe页调用该url，即可以看到结果。效果：
+
+==特别提醒：因为EMS、顺丰和申通偶尔会不稳定，不稳定时会先显示验证码（如下图所示），所以请勿直接将这个页面直接解析成JSON等形式，否则会出错！如下图：==
+
+= 四、整体使用流程：=
+第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]，返回一个url地址，如：
+http://www.kuaidi100.com/kuaidiresult?id=23
+第二步：将上述url嵌入电商网站页面，作为frame，即可展示结果。
+
+Iframe代码示例：
+<iframe name="kuaidi100" src="http://www.kuaidi100.com/kuaidiresult?id=23" width="600" height="360" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
