@@ -24,7 +24,8 @@ http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]
 
 = 四、整体使用流程：=
 第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]，返回一个url地址，如：
-http://www.kuaidi100.com/kuaidiresult?id=23  。
+http://www.kuaidi100.com/kuaidiresult?id=23 。
+
 第二步：将上述url嵌入电商网站页面，作为frame，即可展示结果。
 
 Iframe代码示例：
