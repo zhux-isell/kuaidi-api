@@ -14,7 +14,7 @@ http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]
 || nu || 是 || 快递单号  ||
 
 = 三、返回结果说明：=
-   返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23，直接访问或用iframe页调用该url，即可以看到结果。效果：
+   返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23 ，直接访问或用iframe页调用该url，即可以看到结果。效果：
  
 === 特别提醒：因为EMS、顺丰和申通偶尔会不稳定，不稳定时会先显示验证码（如下图所示），所以请勿直接将这个页面直接解析成JSON等形式，否则会出错！如下图：===
 
