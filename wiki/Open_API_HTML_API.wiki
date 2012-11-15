@@ -36,7 +36,7 @@ Iframe代码示例：
 <iframe name="kuaidi100" src="http://www.kuaidi100.com/kuaidiresult?id=23" width="600" height="360" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
 }}}
 
-= ems快递查询API接口应用程序开发方法 =
+= 五、ems快递查询API接口应用程序开发方法 =
 　﻿（1）显示结果文件(假如以index.php命名)
 　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入以下代码：　
 {{{
