@@ -47,7 +47,7 @@ Iframe代码示例：
 　　<tr><span>快递100提供技术支持</span></tr>　
 　　</table>　
 }}}
-　　在显示文件的</body>之前加入以下代码：
+　　在显示文件的{{{</body>}}}之前加入以下代码：
 {{{
 　　<script language="javascript">　
 　　document.getElementById("retData").innerHTML="<center>正在查询物流信息，请稍后...</center>";
