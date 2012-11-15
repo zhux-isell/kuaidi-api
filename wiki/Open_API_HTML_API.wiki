@@ -35,3 +35,57 @@ Iframe代码示例：
 {{{
 <iframe name="kuaidi100" src="http://www.kuaidi100.com/kuaidiresult?id=23" width="600" height="360" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
 }}}
+
+= ems快递查询API接口应用程序开发方法 =
+　﻿（1）显示结果文件(假如以index.php命名)
+　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入以下代码：　
+　　<h5><span>物流跟踪</span></h5>　
+　　<divclass="blank"></div>　
+　　<tablewidth="100%" border="0" cellpadding="5"cellspacing="1" bgcolor="#dddddd">　
+　　<tr> <tdbgcolor="#ffffff"><div id="retData"></div></td> </tr>　
+　　<tr><span>快递100提供技术支持</span></tr>　
+　　</table>　
+　　在显示文件的</body>之前加入以下代码：
+　　<script language="javascript">　
+　　document.getElementById("retData").innerHTML="<center>正在查询物流信息，请稍后...</center>";
+　　var expressid =document.getElementById("shipping_name").innerHTML;　
+　　var expressno = document.getElementById("invoice_no").innerHTML;　Ajax.call('kuaidi100/express.php?com='+expressid+'&nu=' + expressno,'showtest=showtest', function(data){document.getElementById("retData").innerHTML=data;},'GET', 'TEXT'); //这里的kuaidi100/express.php指请求文件，见下面
+　　</script>　
+　　（2）查询文件(假如以kuaidi100/express.php命名)　
+　　<?php
+　　$typeCom = $_GET["com"];
+　　$typeNu = $_GET["nu"];
+　　//echo $typeCom.'<br/>' ;
+　　//echo $typeNu ;
+　　include_once("kuaidi100_company.php");
+　　if(isset($typeCom)&&isset($typeNu)){
+　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key获得方法见《申请ems快递查询API接口授权key的方法》[2]
+　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;
+
+　　//优先使用curl模式发送数据
+　　if(function_exists('curl_init') == 1){
+　　$curl = curl_init();
+　　curl_setopt ($curl, CURLOPT_URL, $url);
+　　curl_setopt ($curl, CURLOPT_HEADER,0);
+　　curl_setopt ($curl, CURLOPT_RETURNTRANSFER,1);
+　　curl_setopt ($curl,CURLOPT_USERAGENT,$_SERVER['HTTP_USER_AGENT']);
+　　curl_setopt ($curl, CURLOPT_TIMEOUT,5);
+　　$get_content = curl_exec($curl);
+　　curl_close ($curl);
+　　}else{
+　　include("snoopy.php");
+　　$snoopy = new snoopy();
+　　$snoopy->referer ='google';//请将google替换成google的完整网址
+　　$snoopy->fetch($url);
+　　$get_content = $snoopy->results;
+　　}
+　　/$get_content=iconv('UTF-8','GB2312//IGNORE', $get_content);
+　　//if(strpos($get_content,'地点和跟踪进度')== false){
+　　// echo '查询失败，请重试';
+　　//}
+　　print_r('<iframesrc="'.$get_content.'" width="580"height="380"><br/>' . $powered);
+　　}else{
+　　echo'查询失败，请重试';
+　　}
+　　exit();
+　　?>
