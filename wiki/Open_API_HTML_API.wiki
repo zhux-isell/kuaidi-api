@@ -65,7 +65,7 @@ Iframe代码示例：
 　　//echo $typeNu ;
 　　include_once("kuaidi100_company.php");
 　　if(isset($typeCom)&&isset($typeNu)){
-　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key获得方法见《申请ems快递查询API接口授权key的方法》[2]
+　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key请到http://www.kuaidi100.com/openapi获得
 　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;
 
 　　//优先使用curl模式发送数据
