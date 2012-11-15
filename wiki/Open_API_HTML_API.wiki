@@ -39,19 +39,25 @@ Iframe代码示例：
 = ems快递查询API接口应用程序开发方法 =
 　﻿（1）显示结果文件(假如以index.php命名)
 　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入以下代码：　
+{{{
 　　<h5><span>物流跟踪</span></h5>　
 　　<divclass="blank"></div>　
 　　<tablewidth="100%" border="0" cellpadding="5"cellspacing="1" bgcolor="#dddddd">　
 　　<tr> <tdbgcolor="#ffffff"><div id="retData"></div></td> </tr>　
 　　<tr><span>快递100提供技术支持</span></tr>　
 　　</table>　
+}}}
 　　在显示文件的</body>之前加入以下代码：
+{{{
 　　<script language="javascript">　
 　　document.getElementById("retData").innerHTML="<center>正在查询物流信息，请稍后...</center>";
 　　var expressid =document.getElementById("shipping_name").innerHTML;　
 　　var expressno = document.getElementById("invoice_no").innerHTML;　Ajax.call('kuaidi100/express.php?com='+expressid+'&nu=' + expressno,'showtest=showtest', function(data){document.getElementById("retData").innerHTML=data;},'GET', 'TEXT'); //这里的kuaidi100/express.php指请求文件，见下面
 　　</script>　
+}}}
+
 　　（2）查询文件(假如以kuaidi100/express.php命名)　
+{{{
 　　<?php
 　　$typeCom = $_GET["com"];
 　　$typeNu = $_GET["nu"];
@@ -89,3 +95,4 @@ Iframe代码示例：
 　　}
 　　exit();
 　　?>
+}}}
