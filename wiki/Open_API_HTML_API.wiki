@@ -15,7 +15,7 @@
 || nu || 是 || 快递单号  ||
 
 = 三、返回结果说明：=
-   返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23  ，直接访问或用iframe页调用该url，即可以看到结果。效果：
+   返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23  ，直接访问或用iframe页调用该url（调用方法见后面第四章），即可以看到结果。效果：
 
    [http://kuaidi-api.googlecode.com/files/html_API_result.jpg]
  
