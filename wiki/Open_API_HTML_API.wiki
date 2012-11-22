@@ -35,6 +35,7 @@ Iframe代码示例：
 <iframe name="kuaidi100" src="结果url地址" width="600" height="380" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
 }}}
 
+== 如果要实现系统自动地将结果url传入iframe标签的src，请参考下面 ==
 
 = 五、ems快递查询API接口应用程序开发方法 =
 　﻿（1）显示结果文件(假如以index.php命名)
