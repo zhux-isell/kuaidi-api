@@ -163,8 +163,8 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*Z*|| || ||
 || ||zhongtong||中通速递||
 || ||zhaijisong||宅急送||
-|| ||ztky||中铁快运||
-|| ||zhongtiewuliu||中铁物流||
+|| ||ztky||中铁物流（特指：http://www.kuaidi100.com/all/ztwl.shtml）||
+|| ||zhongtiewuliu||中铁快运（特指：http://www.kuaidi100.com/all/ztky.shtml）||
 || ||zhongyouwuliu||中邮物流||
 || ||zhongxinda||忠信达||
 || ||zhongsukuaidi||中速快件||
