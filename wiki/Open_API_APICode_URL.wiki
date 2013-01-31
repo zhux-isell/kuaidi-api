@@ -12,6 +12,7 @@ APICode URL的使用说明已迁回快递100网站，要了解APICode URL的详�
 || ||shunfeng||顺丰||
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
+|| ||youzhengguoji||中国邮政国际包裹/挂号信||
 
          === 其他快递公司请直接使用 [Open_API_API_URL] ===
 
