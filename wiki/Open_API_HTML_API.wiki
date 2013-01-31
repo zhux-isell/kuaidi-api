@@ -25,7 +25,8 @@
 || ||shunfeng||顺丰||
 ||*Y*|| || ||
 || ||youzhengguonei||中国邮政国内包裹/挂号信||
-其他编码请到http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL 查看
+
+  其他编码请到http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL 查看
 
 = 三、返回结果说明：=
    返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23  ，直接访问或用iframe页调用该url（调用方法见后面第四章），即可以看到结果。效果：
