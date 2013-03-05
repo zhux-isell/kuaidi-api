@@ -25,8 +25,8 @@
 || ||shentong||伸通e物流||
 || ||shunfeng||顺丰||
 ||*Y*|| || ||
-|| ||youzhengguonei||中国邮政国内包裹/挂号信||
-|| ||youzhengguoji||中国邮政国际包裹/挂号信||
+|| ||youzhengguonei||中国邮政国内包裹/挂号信/国内小包大包||
+|| ||youzhengguoji||中国邮政国际包裹/挂号信/国外小包大包||
 
   其他编码请到http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL 查看
 
