@@ -44,6 +44,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||feibaokuaidi||飞豹快递||
 ||*G*|| || ||
 || ||ganzhongnengda||港中能达||
+|| ||guotongkuaidi||国通快递||
 || ||guangdongyouzhengwuliu||广东邮政||
 || ||youzhengguonei||挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||youzhengguonei||国内邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
