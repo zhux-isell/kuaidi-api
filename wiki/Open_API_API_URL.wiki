@@ -36,8 +36,9 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||ems||E邮宝（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||emsen||EMS（英文结果）（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 ||*F*|| || ||
-|| ||fedex||Fedex（国际）（英文结果）（说明：Fedex是国际，Fedex国内的请用“lianbangkuaidi”）(如果无效，请偿试使用fedexus）||
-|| ||fedexus||Fedex美国（英文结果）(如果无效，请偿试使用fedex）||
+|| ||fedex||Fedex-国际件-英文结果（说明：Fedex是国际件的英文结果，Fedex中国的请用“lianbangkuaidi”，Fedex-美国请用fedexus）||
+|| ||fedexcn||Fedex-国际件-中文结果||
+|| ||fedexus||Fedex-美国件-英文结果(说明：如果无效，请偿试使用fedex）||
 || ||feikangda||飞康达物流||
 || ||feikuaida||飞快达||
 || ||rufengda||凡客如风达||
@@ -82,7 +83,8 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||longbanwuliu||龙邦物流||
 || ||lanbiaokuaidi||蓝镖快递||
 || ||lejiedi||乐捷递（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限||
-|| ||lianbangkuaidi||联邦快递（国内）（说明：国外的请用 fedex）||
+|| ||lianbangkuaidi||联邦快递（Fedex-中国-中文结果）（说明：国外的请用 fedex）||
+|| ||lianbangkuaidien||联邦快递(Fedex-中国-英文结果）||
 || ||lijisong||立即送（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 || ||longlangkuaidi||隆浪快递||
 ||*M*|| || ||
