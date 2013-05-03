@@ -26,9 +26,9 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||datianwuliu||大田物流||
 || ||debangwuliu||德邦物流||
 || ||dpex||DPEX||
-|| ||dhl||DHL(中文结果）||
-|| ||dhlen||DHL(英文结果）||
-|| ||dhlde||DHL（德文结果）||
+|| ||dhl||DHL-中国件-中文结果||
+|| ||dhlen||DHL-国际件-英文结果||
+|| ||dhlde||DHL-德国件-德文结果（德国国内派、收的件）||
 || ||dsukuaidi||D速快递||
 || ||disifang||递四方||
 ||*E*|| || ||
