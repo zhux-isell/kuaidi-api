@@ -4,7 +4,11 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 
 = API URL 所支持的快递公司及参数说明 =
 如果在下面没有找到您所要的快递公司，请添加企业QQ4008800898转快递100索要。
-
+--------目录-----------
+1、所有快递
+2、国际邮政、EMS、快递专区
+-----------------------
+1、完整列表
 || *分类* || *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
 || ||auspost||澳大利亚邮政(英文结果）||
@@ -175,6 +179,51 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||zhimakaimen||芝麻开门||
 || ||zhengzhoujianhua||郑州建华（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 || ||zhongtianwanyun||中天万运||
+
+
+2、国际邮政、EMS、快递专区
+|| *分类* || *快递公司代码* || *公司名称* ||
+||*A*|| || ||
+|| ||auspost||澳大利亚邮政(英文结果）||
+||*C*|| || ||
+|| ||canpost||加拿大邮政Canada Post（英文结果）||
+|| ||canpostfr||加拿大邮政Canada Post(德文结果）||
+||*D*|| || ||
+|| ||dpex||DPEX||
+|| ||dhl||DHL-中国件-中文结果||
+|| ||dhlen||DHL-国际件-英文结果||
+|| ||dhlde||DHL-德国件-德文结果（德国国内派、收的件）||
+||*E*|| || ||
+|| ||ems||EMS(中文结果)（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||ems||E邮宝（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||emsen||EMS（英文结果）（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+||*F*|| || ||
+|| ||fedex||Fedex-国际件-英文结果（说明：Fedex是国际件的英文结果，Fedex中国的请用“lianbangkuaidi”，Fedex-美国请用fedexus）||
+|| ||fedexcn||Fedex-国际件-中文结果||
+|| ||fedexus||Fedex-美国件-英文结果(说明：如果无效，请偿试使用fedex）||
+||*G*|| || ||
+|| ||guangdongyouzhengwuliu||广东邮政||
+|| ||youzhengguonei||挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguonei||国内邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguoji||国际邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||gls||GLS||
+||*L*|| || ||
+| ||lianbangkuaidi||联邦快递（Fedex-中国-中文结果）（说明：国外的请用 fedex）||
+|| ||lianbangkuaidien||联邦快递(Fedex-中国-英文结果）||
+||*T*|| || ||
+|| ||tnt||TNT（中文结果）||
+|| ||tnten||TNT（英文结果）||
+||*U*|| || ||
+|| ||ups||UPS（中文结果）||
+|| ||upsen||UPS（英文结果）||
+|| ||youshuwuliu||优速物流||
+|| ||usps||USPS（中英文）||
+|| ||hkpost||香港邮政||
+||*Y*|| || ||
+|| ||youzhengguonei||邮政国内给据（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguoji||邮政国际（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+||*Z*|| || ||
+|| ||zhongyouwuliu||中邮物流||
 
 
 = 1、API地址 =
