@@ -191,10 +191,11 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 2、国际邮政、EMS、快递专区
 || *分类* || *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
-|| ||auspost||澳大利亚邮政(英文结果）||
+|| ||auspost||澳大利亚邮政(英文结果）Australia Post(English data)||
+|| ||aramex||Aramex(English data)||
 ||*C*|| || ||
-|| ||canpost||加拿大邮政Canada Post（英文结果）||
-|| ||canpostfr||加拿大邮政Canada Post(德文结果）||
+|| ||canpost||加拿大邮政（英文结果）Canada Post(English data)||
+|| ||canpostfr||加拿大邮政(德文结果）Canada Post||
 ||*D*|| || ||
 || ||dpex||DPEX||
 || ||dhl||DHL-中国件-中文结果||
@@ -204,19 +205,23 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||ems||EMS(中文结果)（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||ems||E邮宝（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||emsen||EMS（英文结果）（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||emsguoji||EMS国际||
 ||*F*|| || ||
 || ||fedex||Fedex-国际件-英文结果（说明：Fedex是国际件的英文结果，Fedex中国的请用“lianbangkuaidi”，Fedex-美国请用fedexus）||
 || ||fedexcn||Fedex-国际件-中文结果||
 || ||fedexus||Fedex-美国件-英文结果(说明：如果无效，请偿试使用fedex）||
 ||*G*|| || ||
-|| ||guangdongyouzhengwuliu||广东邮政||
-|| ||youzhengguonei||挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||youzhengguonei||国内邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguonei||中国挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguonei||中国邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||youzhengguoji||国际邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||gls||GLS||
 ||*L*|| || ||
-| ||lianbangkuaidi||联邦快递（Fedex-中国-中文结果）（说明：国外的请用 fedex）||
-|| ||lianbangkuaidien||联邦快递(Fedex-中国-英文结果）||
+| ||lianbangkuaidi||Fedex-中国件-中文结果||
+|| ||lianbangkuaidien||Fedex-中国件-英文结果||
+||*P*|| || ||
+|| ||ruidianyouzheng||Posten AB||
+||*R*|| || ||
+|| ||ruidianyouzheng||瑞典邮政包裹小包||
 ||*T*|| || ||
 || ||tnt||TNT（中文结果）||
 || ||tnten||TNT（英文结果）||
