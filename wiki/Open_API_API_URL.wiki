@@ -189,51 +189,49 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 
 
 2、国际邮政、EMS、快递专区
-|| *分类* || *快递公司代码* || *公司名称* ||
+
+|| *分类(Classification）* || *快递公司代码(Code)* || *公司名称(Company's name)* ||
 ||*A*|| || ||
-|| ||auspost||澳大利亚邮政(英文结果）Australia Post(English data)||
+|| ||auspost||澳大利亚邮政(英文结果）/Australia Post(English data)||
 || ||aramex||Aramex(English data)||
 ||*C*|| || ||
-|| ||canpost||加拿大邮政（英文结果）Canada Post(English data)||
-|| ||canpostfr||加拿大邮政(德文结果）Canada Post||
+|| ||canpost||加拿大邮政（英文结果）/Canada Post(English data)||
+|| ||canpostfr||加拿大邮政(德文结果）/Canada Post（German data）||
 ||*D*|| || ||
 || ||dpex||DPEX||
-|| ||dhl||DHL-中国件-中文结果||
-|| ||dhlen||DHL-国际件-英文结果||
-|| ||dhlde||DHL-德国件-德文结果（德国国内派、收的件）||
+|| ||dhl||DHL-中国件-中文结果/DHL-China-Chinese data||
+|| ||dhlen||DHL-国际件-英文结果/DHL-International-English data||
+|| ||dhlde||DHL-德国件-德文结果/DHL-Germany-German data||
 ||*E*|| || ||
-|| ||ems||EMS(中文结果)（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||ems||E邮宝（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||emsen||EMS（英文结果）（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||emsguoji||EMS国际||
+|| ||ems||EMS-中国件-中文结果/EMS-China-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||ems||E邮宝-中国件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||emsen||EMS-中国件-英文结果/EMS-China-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||emsguoji||EMS-国际件-中文结果/EMS-International-Chinese data||
 ||*F*|| || ||
-|| ||fedex||Fedex-国际件-英文结果（说明：Fedex是国际件的英文结果，Fedex中国的请用“lianbangkuaidi”，Fedex-美国请用fedexus）||
-|| ||fedexcn||Fedex-国际件-中文结果||
-|| ||fedexus||Fedex-美国件-英文结果(说明：如果无效，请偿试使用fedex）||
+|| ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
+|| ||fedexcn||Fedex-国际件-中文结果/Fedex-International-Chinese data|
+|| ||fedexus||Fedex-美国件-英文结果/Fedex-America-English data||
 ||*G*|| || ||
-|| ||youzhengguonei||中国挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||youzhengguonei||中国邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||youzhengguoji||国际邮件（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||gls||GLS||
+||*H*|| || ||
+|| ||hkpost||香港邮政-中文结果/HongKong Post-Chinese data||
 ||*L*|| || ||
-| ||lianbangkuaidi||Fedex-中国件-中文结果||
-|| ||lianbangkuaidien||Fedex-中国件-英文结果||
+| ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
+|| ||lianbangkuaidien||Fedex-中国件-英文结果/Fedex-China-English data||
 ||*P*|| || ||
-|| ||ruidianyouzheng||Posten AB||
+|| ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
 ||*R*|| || ||
-|| ||ruidianyouzheng||瑞典邮政包裹小包||
+|| ||ruidianyouzheng||瑞典邮政包裹小包-中文结果/Posten AB-Chinese data||
 ||*T*|| || ||
-|| ||tnt||TNT（中文结果）||
-|| ||tnten||TNT（英文结果）||
+|| ||tnt||TNT-中文结果/TNT-Chinese data||
+|| ||tnten||TNT-英文结果/TNT-English data||
 ||*U*|| || ||
-|| ||ups||UPS（中文结果）||
-|| ||upsen||UPS（英文结果）||
-|| ||youshuwuliu||优速物流||
-|| ||usps||USPS（中英文）||
-|| ||hkpost||香港邮政||
+|| ||ups||UPS-中文结果/UPS-Chinese data||
+|| ||upsen||UPS-英文结果/UPS-English data||
+|| ||usps||USPS||
 ||*Y*|| || ||
-|| ||youzhengguonei||邮政国内给据（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||youzhengguoji||邮政国际（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguonei||邮政包裹、挂号信-中国件-中文结果/post-China-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
+|| ||youzhengguoji||邮政包裹、挂号信-国际件-中文结果/post-International-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 ||*Z*|| || ||
 || ||zhongyouwuliu||中邮物流||
 
