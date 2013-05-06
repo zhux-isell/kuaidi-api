@@ -216,7 +216,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*H*|| || ||
 || ||hkpost||香港邮政-中文结果/HongKong Post-Chinese data||
 ||*L*|| || ||
-| ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
+|| ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
 || ||lianbangkuaidien||Fedex-中国件-英文结果/Fedex-China-English data||
 ||*P*|| || ||
 || ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
