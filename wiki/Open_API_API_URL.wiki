@@ -206,7 +206,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 || ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
 || ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ4008800898）||
-|| ||emsguoji||EMS-（中国-国际）件-中文结果/EMS-(China-International）-Chinese data||
+|| ||emsguoji||EMS-（中国-国际）件-英文结果/EMS-(China-International）-English data||
 ||*F*|| || ||
 || ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
 || ||fedexcn||Fedex-国际件-中文结果/Fedex-International-Chinese data||
