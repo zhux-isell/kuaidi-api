@@ -3,6 +3,7 @@
 chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的使用方法请点击[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转查询接口]。
 
 = 表1：Chaxun URL支持的快递公司及参数说明 =
+=（手机API支持的快递公司及参数说明）=
 
 ||*模糊输入*||*公司名称*||
 ||aae, aae专递||aae全球专递||
