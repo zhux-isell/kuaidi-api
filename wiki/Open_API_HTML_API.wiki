@@ -85,7 +85,7 @@
 　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key请到http://www.kuaidi100.com/openapi获得
 　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;//生成完整的请求URL
 
-　　//优先使用curl模式发送数据（以下一大段都是在PHP语言下向$url发送请求并获得返回结果的代码，其他语言应该不用这么复杂）
+　　//优先使用curl模式发送数据（以下一大段都是在PHP语言下向$url发送请求并获得返回结果的代码，其他语言应该不用这么复杂,ASP的可以参考下这个http://xiao5461.blog.163.com/blog/static/22754562201181881820798/）
 　　if(function_exists('curl_init') == 1){
 　　$curl = curl_init();
 　　curl_setopt ($curl, CURLOPT_URL, $url);
