@@ -75,6 +75,7 @@
 }}}
 
 　　（2）查询文件(假如以kuaidi100/express.php命名)　
+//注释：第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[] 
 {{{
 　　<?php
 　　$typeCom = $_GET["com"];
@@ -107,6 +108,8 @@
 　　//if(strpos($get_content,'地点和跟踪进度')== false){
 　　// echo '查询失败，请重试';
 　　//}
+
+//注释：第二步：在要显示结果的页面添加一个iframe标签，将上述结果url地址传入该iframe标签的的src值
 　　print_r('<iframesrc="'.$get_content.'" width="580"height="380"><br/>' . $powered);
 　　}else{
 　　echo'查询失败，请重试';
