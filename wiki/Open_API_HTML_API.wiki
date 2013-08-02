@@ -75,14 +75,15 @@
 }}}
 
 　　（2）查询文件(假如以kuaidi100/express.php命名)　
-//注释：第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[] 
+
 {{{
+//注释：第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[] 
 　　<?php
 　　$typeCom = $_GET["com"];
 　　$typeNu = $_GET["nu"];
 　　//echo $typeCom.'<br/>' ;
 　　//echo $typeNu ;
-　　include_once("kuaidi100_company.php");
+　　include_once("kuaidi100_company.php");//kuaidi100_company.php的作用是将快递公司的名称转换成快递公司的编码，即转换成com值
 　　if(isset($typeCom)&&isset($typeNu)){
 　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key请到http://www.kuaidi100.com/openapi获得
 　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;
@@ -98,7 +99,7 @@
 　　$get_content = curl_exec($curl);
 　　curl_close ($curl);
 　　}else{
-　　include("snoopy.php");
+　　include("snoopy.php");//该文件为PHP请求所需要的类文件
 　　$snoopy = new snoopy();
 　　$snoopy->referer ='google';//请将google替换成google的完整网址
 　　$snoopy->fetch($url);
