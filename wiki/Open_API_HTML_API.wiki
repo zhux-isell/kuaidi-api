@@ -56,7 +56,7 @@
 
 = 五、ems快递查询API接口应用程序开发方法 =
 　﻿（1）显示结果文件(假如以index.php命名)
-　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入以下代码：　
+　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入一个div，以便通过这个div将结果显示出来，代码参考：　
 {{{
 　　<h5><span>物流跟踪</span></h5>　
 　　<divclass="blank"></div>　
@@ -65,7 +65,7 @@
 　　<tr><span>快递100提供技术支持</span></tr>　
 　　</table>　
 }}}
-　　在显示文件的{{{</body>}}}之前加入以下代码：
+　　在显示文件的{{{</body>}}}之前加入如下代码，当页面加载后，先向快递100提交请求，然后将请求结果显示到上述div中中去：
 {{{
 　　<script language="javascript">　
 　　document.getElementById("retData").innerHTML="<center>正在查询物流信息，请稍后...</center>";
