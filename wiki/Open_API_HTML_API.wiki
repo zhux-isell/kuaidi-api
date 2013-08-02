@@ -79,13 +79,13 @@
 {{{
 //注释：第一步，向http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[] 发起请求，代码参考：
 　　<?php
-　　$typeCom = $_GET["com"];
-　　$typeNu = $_GET["nu"];
+　　$typeCom = $_GET["com"];//获得快递公司
+　　$typeNu = $_GET["nu"];//获得快递单号
 　　if(isset($typeCom)&&isset($typeNu)){
 　　$AppKey='XXXXXXX';//请将XXXXXX替换成您在快递100网站申请到的授权key，授权key请到http://www.kuaidi100.com/openapi获得
-　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;
+　　$url= 'http://www.kuaidi100.com/applyurl?key='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu;//生成完整的请求URL
 
-　　//优先使用curl模式发送数据（以下一大段都是在PHP语言下向$url发送请求并获得返回结果的代码）
+　　//优先使用curl模式发送数据（以下一大段都是在PHP语言下向$url发送请求并获得返回结果的代码，其他语言应该不用这么复杂）
 　　if(function_exists('curl_init') == 1){
 　　$curl = curl_init();
 　　curl_setopt ($curl, CURLOPT_URL, $url);
@@ -96,7 +96,7 @@
 　　$get_content = curl_exec($curl);
 　　curl_close ($curl);
 　　}else{
-　　include("snoopy.php");//该文件为PHP请求所需要的类文件
+　　include("snoopy.php");//该文件为PHP请求所需要的类文件，请忽略
 　　$snoopy = new snoopy();
 　　$snoopy->referer ='google';//请将google替换成google的完整网址
 　　$snoopy->fetch($url);
