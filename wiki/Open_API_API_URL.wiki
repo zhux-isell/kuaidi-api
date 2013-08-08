@@ -3,7 +3,7 @@
 API的使用说明已迁快递100网站，要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递100查询接口说明]。
 
 = API URL 所支持的快递公司及参数说明 =
-如果在下面没有找到您所要的快递公司，请添加企业QQ4008800898转快递100索要。
+如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。
 
 
 --------目录-----------
@@ -24,7 +24,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 ||*B*|| || ||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
-|| ||youzhengguonei||包裹/平邮/挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ800036857）||
+|| ||youzhengguonei||包裹/平邮/挂号信（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
 || ||bangsongwuliu||邦送物流||
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
