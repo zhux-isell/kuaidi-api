@@ -40,12 +40,12 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||jymwl||加运美物流||
 ||jindawuliu||金大物流||
 ||jialidatong||嘉里大通||
-||jykd,jinyue||晋越快递||
+||jykd||晋越快递||
 ||kuaijiesudi||快捷速递||
 ||lianb||联邦快递（国内）||
 ||lianhaowuliu||联昊通物流||
 ||longbanwuliu||龙邦物流||
-||lijisong,lijisong||立即送||
+||lijisong||立即送||
 ||lejiedi||乐捷递||
 ||minghangkuaidi||民航快递||
 ||meiguokuaidi||美国快递||
@@ -53,7 +53,7 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||ocs||OCS||
 ||peisihuoyunkuaidi||配思货运||
 ||quanchenkuaidi||全晨快递||
-||qfkd,quanfeng||全峰快递||
+||qfkd||全峰快递||
 ||quanjitong||全际通物流||
 ||quanritongkuaidi||全日通快递||
 ||quanyikuaidi||全一快递||
