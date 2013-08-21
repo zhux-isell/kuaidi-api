@@ -25,6 +25,7 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||feikangda||飞康达物流||
 ||fenghuangkuaidi||凤凰快递||
 ||feikuaida||飞快达||
+||guotongkuaidi||国通快递||
 ||ganzhongnengda||港中能达物流||
 ||guangdongyouzhengwuliu||广东邮政物流||
 ||gongsuda||共速达||
@@ -75,8 +76,6 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||wxwl||万象物流||
 ||xinbangwuliu||新邦物流||
 ||xinfengwuliu||信丰物流||
-||xingchenjibian||星晨急便||
-||xinhongyukuaidi||鑫飞鸿物流快递||
 ||yafengsudi||亚风速递||
 ||yibangwuliu||一邦速递||
 ||youshuwuliu||优速物流||
