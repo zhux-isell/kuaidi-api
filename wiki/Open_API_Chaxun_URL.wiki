@@ -89,7 +89,7 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||yunda||韵达快运||
 ||yuntongkuaidi||运通快递||
 ||yuefengwuliu||越丰物流||
-||yad,yuananda||源安达||
+||yad||源安达||
 ||yinjiesudi||银捷速递||
 ||zhaijisong||宅急送||
 ||zhongtiekuaiyun||中铁快运||
