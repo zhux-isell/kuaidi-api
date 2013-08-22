@@ -1,9 +1,6 @@
 #labels OPENAPI,快递查询接口,快递查询API,快递接口,快递API,ChaxunURL
-= 更新公告 =
-chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的使用方法请点击[http://www.kuaidi100.com/openapi/api_3_02.shtml?typeid=2 跳转查询接口]。
-
-= 表1：Chaxun URL支持的快递公司及参数说明 =
-=（手机API支持的快递公司及参数说明）=
+= 说明 =
+以下表格同时适用于[http://www.kuaidi100.com/openapi/api_3_02.shtml 跳转API]和[http://www.kuaidi100.com/openapi/mobileapi.shtml 手机查快递API],如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。 
 
 ||*编码*||*公司名称*||
 ||aae||aae全球专递||
@@ -97,6 +94,10 @@ chaxun url的使用说明已迁回快递100网站,要了解chaxun url详细的�
 ||zhongxinda||忠信达||
 ||zhimakaimen||芝麻开门||
 
+
+表1：Chaxun URL支持的快递公司及参数说明
+
+ 
 = 1.API地址 =
 	http://www.kuaidi100.com/chaxun?com=[]&nu=[] 
 
