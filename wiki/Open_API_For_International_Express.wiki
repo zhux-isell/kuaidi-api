@@ -1,8 +1,6 @@
 #labels API
 = 国际邮政、EMS、快递查询接口（API） =
-以下列表同时适用于[http://code.google.com/p/kuaidi-api/wiki/Open_API_HTML_API HtmlAPI]和[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递查询API]（部份，具体区别请留意快递公司名称后的备注）。
-
-如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。
+以下列表同时适用于[http://code.google.com/p/kuaidi-api/wiki/Open_API_HTML_API HtmlAPI]和[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递查询API]（部份，具体区别请留意快递公司名称后的备注）。如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。
 
 || *分类(Classification）* || *快递公司代码(Code)* || *公司名称(Company's name)* ||
 ||*A*|| || ||
