@@ -13,7 +13,7 @@
 ||  nu  || 是 || 快递单号  ||
 
 = 3、支持的公司 =
-HtmlAPI支持快递100所有的支持的公司，以下只罗列最常见的几个快递，更多的编码请到[http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL  详细列表]查看
+HtmlAPI支持快递100所有支持的公司，以下只罗列最常见的几个快递，更多的编码请到[http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL  详细列表]查看
 
 ||*分类*|| *快递公司代码* || *公司名称* ||
 ||*E*|| || ||
