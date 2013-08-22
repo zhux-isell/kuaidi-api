@@ -3,7 +3,7 @@
 要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递100查询接口说明]
 
 = 2、API URL 所支持的快递公司及参数说明 =
-以下是我们对外开发的部份公司的列表，国际类的请直接点击[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递类列表]查看。
+以下是我们对外开放的部份公司的列表，国际类的请直接点击[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递类列表]查看。 如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。 
 
 || *分类* || *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
