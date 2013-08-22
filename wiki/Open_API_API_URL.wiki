@@ -10,7 +10,7 @@ API的使用说明已迁快递100网站，要了解Api url使用说明的请点�
 
 1、所有快递
 
-2、国际邮政、EMS、快递专区
+2、[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递专区]
 
 -----------------------
 
