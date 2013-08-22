@@ -3,16 +3,8 @@
 要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递100查询接口说明]
 
 = 2、API URL 所支持的快递公司及参数说明 =
-API URL支持超过150家国内、国际的快递物流公司，以下是他们的编码。
+以下是我们对外开发的部份公司的列表，国际类的请直接点击[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递类列表]查看。
 
-（1）完整的列表
-
-（2）[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递类列表]
-
------------------------
-
-
-1、完整列表
 || *分类* || *快递公司代码* || *公司名称* ||
 ||*A*|| || ||
 || ||auspost||澳大利亚邮政(英文结果）||
@@ -184,54 +176,6 @@ API URL支持超过150家国内、国际的快递物流公司，以下是他们�
 || ||zhimakaimen||芝麻开门||
 || ||zhengzhoujianhua||郑州建华（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限）||
 || ||zhongtianwanyun||中天万运||
-
-
-2、国际邮政、EMS、快递专区
-
-|| *分类(Classification）* || *快递公司代码(Code)* || *公司名称(Company's name)* ||
-||*A*|| || ||
-|| ||auspost||澳大利亚邮政(英文结果）/Australia Post(English data)||
-|| ||aramex||Aramex(English data)||
-||*C*|| || ||
-|| ||canpost||加拿大邮政（英文结果）/Canada Post(English data)||
-|| ||canpostfr||加拿大邮政(德文结果）/Canada Post（German data）||
-||*D*|| || ||
-|| ||dpex||DPEX||
-|| ||dhl||DHL-中国件-中文结果/DHL-China-Chinese data||
-|| ||dhlen||DHL-国际件-英文结果/DHL-International-English data||
-|| ||dhlde||DHL-德国件-德文结果/DHL-Germany-German data||
-||*E*|| || ||
-|| ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
-|| ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
-|| ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
-|| ||emsguoji||EMS-（中国-国际）件-英文结果/EMS-(China-International）-English data||
-||*F*|| || ||
-|| ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
-|| ||fedexcn||Fedex-国际件-中文结果/Fedex-International-Chinese data||
-|| ||fedexus||Fedex-美国件-英文结果/Fedex-America-English data||
-||*G*|| || ||
-|| ||gls||GLS||
-||*H*|| || ||
-|| ||hkpost||香港邮政-中文结果/HongKong Post-Chinese data||
-||*L*|| || ||
-|| ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
-|| ||lianbangkuaidien||Fedex-中国件-英文结果/Fedex-China-English data||
-||*P*|| || ||
-|| ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
-||*R*|| || ||
-|| ||ruidianyouzheng||瑞典邮政包裹小包-中文结果/Posten AB-Chinese data||
-||*T*|| || ||
-|| ||tnt||TNT-中文结果/TNT-Chinese data||
-|| ||tnten||TNT-英文结果/TNT-English data||
-||*U*|| || ||
-|| ||ups||UPS-中文结果/UPS-Chinese data||
-|| ||upsen||UPS-英文结果/UPS-English data||
-|| ||usps||USPS||
-||*Y*|| || ||
-|| ||youzhengguonei||邮政包裹、挂号信-中国件-中文结果/post-China-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
-|| ||youzhengguoji||邮政包裹、挂号信-国际件-中文结果/post-International-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
-||*Z*|| || ||
-|| ||zhongyouwuliu||中邮物流||
 
 
 = 1、API地址 =
