@@ -2,11 +2,11 @@
 = HtmlAPI  =
 *支持包括EMS、邮政、顺丰和申通在内的所有公司*，稳定性强、速度快，易开发、安全性高 。如果有疑问，可以添加企业QQ 800036857咨询
 
-= 一、API请求地址：=
+= 1、API请求地址：=
    http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[]
 （配参数时请先将 中括号去掉）
 
-= 二、传入参数说明：=
+= 2、传入参数说明：=
 || *参数* || *是否必需* || *说明* ||
 || key || 是 || 快递100的授权key，*如果已有快递100的key，可以直接使用已有的*；如果还没有申请，请到 [http://www.kuaidi100.com/openapi/api_2_02.shtml 快递查询API]提交申请。||
 ||  com  || 是 || 快递公司编码见下表||
@@ -27,7 +27,7 @@
 
   其他编码请到http://code.google.com/p/kuaidi-api/wiki/Open_API_API_URL 查看
 
-= 三、返回结果说明：=
+= 3、返回结果说明：=
    返回一个可以看到结果的url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23  ，直接访问或用iframe页调用该url（调用方法见后面第四章），即可以看到结果。效果：
     [http://kuaidi-api.googlecode.com/files/htmlAPI%E7%BB%93%E6%9E%9C5.jpg]
 
@@ -39,7 +39,7 @@
    [http://kuaidi-api.googlecode.com/files/HtmlAPI%E9%AA%8C%E8%AF%81%E7%A0%812.jpg]
 
 
-= 四、整体使用流程：=
+= 4、整体使用流程：=
    第一步，后台创建链接，调用：http://www.kuaidi100.com/applyurl?key=[]&com=[]&nu=[] ，返回一个url地址，如：http://www.kuaidi100.com/kuaidiresult?id=23 。
 
    第二步：在要显示结果的页面添加一个iframe标签，将上述结果url地址传入该iframe标签的的src值，即可在该页面查看到结果（如果要实现系统自动地将结果url传入iframe标签的src，请参考下面第五章），iframe代码示范:
@@ -51,7 +51,7 @@
 
 
 
-= 五、ems快递查询API接口应用程序开发方法(PHP) =
+= 5、ems快递查询API接口应用程序开发方法(PHP) =
 　﻿（1）显示结果文件(假如以index.php命名)
 　　将网站所用的快递公司名称的参数设置成shipping_name,将运单号的参数设置成invoice_no，在要显示结果的位置插入一个div，以便通过这个div将结果显示出来，代码参考：　
 {{{
