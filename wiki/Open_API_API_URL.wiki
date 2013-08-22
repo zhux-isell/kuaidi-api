@@ -1,12 +1,9 @@
 #labels Openapi,API,快递接口,快递API,快递查询接口,快递查询API,APIURL
-= 更新公告 =
-API的使用说明已迁快递100网站，要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递100查询接口说明]。
+= 1、API URL的使用方法 =
+要了解Api url使用说明的请点击[http://www.kuaidi100.com/openapi/api_2_02.shtml 快递100查询接口说明]
 
-= API URL 所支持的快递公司及参数说明 =
-如果在下面没有找到您所要的快递公司，请添加企业QQ 800036857索要。
-
-
---------目录-----------
+= 2、API URL 所支持的快递公司及参数说明 =
+API URL支持超过150家国内、国际的快递物流公司，以下是他们的编码。
 
 1、所有快递
 
