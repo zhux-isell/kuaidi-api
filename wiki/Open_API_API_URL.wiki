@@ -5,9 +5,9 @@
 = 2、API URL 所支持的快递公司及参数说明 =
 API URL支持超过150家国内、国际的快递物流公司，以下是他们的编码。
 
-1、所有快递
+（1）完整的列表
 
-2、[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递专区]
+（2）[http://code.google.com/p/kuaidi-api/wiki/Open_API_For_International_Express?ts=1377160661&updated=Open_API_For_International_Express 国际邮政、EMS、快递类列表]
 
 -----------------------
 
