@@ -1,0 +1,47 @@
+#labels API
+#快递查询接口（API）-国际邮政、EMS、快递专区
+
+|| *分类(Classification）* || *快递公司代码(Code)* || *公司名称(Company's name)* ||
+||*A*|| || ||
+|| ||auspost||澳大利亚邮政(英文结果）/Australia Post(English data)||
+|| ||aramex||Aramex(English data)||
+||*C*|| || ||
+|| ||canpost||加拿大邮政（英文结果）/Canada Post(English data)||
+|| ||canpostfr||加拿大邮政(德文结果）/Canada Post（German data）||
+||*D*|| || ||
+|| ||dpex||DPEX||
+|| ||dhl||DHL-中国件-中文结果/DHL-China-Chinese data||
+|| ||dhlen||DHL-国际件-英文结果/DHL-International-English data||
+|| ||dhlde||DHL-德国件-德文结果/DHL-Germany-German data||
+||*E*|| || ||
+|| ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
+|| ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
+|| ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
+|| ||emsguoji||EMS-（中国-国际）件-英文结果/EMS-(China-International）-English data||
+||*F*|| || ||
+|| ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
+|| ||fedexcn||Fedex-国际件-中文结果/Fedex-International-Chinese data||
+|| ||fedexus||Fedex-美国件-英文结果/Fedex-America-English data||
+||*G*|| || ||
+|| ||gls||GLS||
+||*H*|| || ||
+|| ||hkpost||香港邮政-中文结果/HongKong Post-Chinese data||
+||*L*|| || ||
+|| ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
+|| ||lianbangkuaidien||Fedex-中国件-英文结果/Fedex-China-English data||
+||*P*|| || ||
+|| ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
+||*R*|| || ||
+|| ||ruidianyouzheng||瑞典邮政包裹小包-中文结果/Posten AB-Chinese data||
+||*T*|| || ||
+|| ||tnt||TNT-中文结果/TNT-Chinese data||
+|| ||tnten||TNT-英文结果/TNT-English data||
+||*U*|| || ||
+|| ||ups||UPS-中文结果/UPS-Chinese data||
+|| ||upsen||UPS-英文结果/UPS-English data||
+|| ||usps||USPS||
+||*Y*|| || ||
+|| ||youzhengguonei||邮政包裹、挂号信-中国件-中文结果/post-China-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
+|| ||youzhengguoji||邮政包裹、挂号信-国际件-中文结果/post-International-Chinese data（暂只支持HTML格式，使用方法见[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果的请联系企业QQ 800036857）||
+||*Z*|| || ||
+|| ||zhongyouwuliu||中邮物流||
