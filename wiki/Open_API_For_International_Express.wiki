@@ -15,9 +15,9 @@
 || ||dhlen||DHL-国际件-英文结果/DHL-International-English data||
 || ||dhlde||DHL-德国件-德文结果/DHL-Germany-German data||
 ||*E*|| || ||
-|| ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857）||
-|| ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857）||
-|| ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857）||
+|| ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||emsguoji||EMS-（中国-国际）件-英文结果/EMS-(China-International）-English data||
 ||*F*|| || ||
 || ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
@@ -42,7 +42,7 @@
 || ||upsen||UPS-英文结果/UPS-English data||
 || ||usps||USPS||
 ||*Y*|| || ||
-|| ||youzhengguonei||邮政包裹、挂号信-中国件-中文结果/post-China-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857）||
-|| ||youzhengguoji||邮政包裹、挂号信-国际件-中文结果/post-International-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI]要JSON、XML格式结果和签收状态state请联系企业QQ 800036857）||
+|| ||youzhengguonei||邮政包裹、挂号信-中国件-中文结果/post-China-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||youzhengguoji||邮政包裹、挂号信-国际件-中文结果/post-International-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI]要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 ||*Z*|| || ||
 || ||zhongyouwuliu||中邮物流||
