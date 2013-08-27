@@ -35,7 +35,7 @@
 ||*R*|| || ||
 || ||ruidianyouzheng||瑞典邮政包裹小包-中文结果/Posten AB-Chinese data||
 ||*S*|| || ||
-|| ||singpost||新加坡邮政邮政包裹小包||
+|| ||singpost||新加坡邮政包裹小包||
 ||*T*|| || ||
 || ||tnt||TNT-中文结果/TNT-Chinese data||
 || ||tnten||TNT-英文结果/TNT-English data||
