@@ -132,7 +132,7 @@
 || ||usps||USPS（中英文）||
 ||*W*|| || ||
 || ||wanjiawuliu||万家物流||
-|| ||wxwl||万象物流||
+|| ||wanxiangwuliu||万象物流||
 || ||weitepai||微特派（暂只能查天天网的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 ||*X*|| || ||
 || ||xinbangwuliu||新邦物流||
