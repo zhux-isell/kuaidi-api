@@ -154,7 +154,7 @@ public class KuaiDi
      *            ：快递公司代码，在http://www.kuaidi100.com/openapi网上的技术文档里可以查询到
      * @param nu
      *            ：快递单号，请勿带特殊符号，不支持中文（大小写不敏感）
-     * @return 快递1000返回的url，然后放入页面iframe标签的src即可
+     * @return 快递100返回的url，然后放入页面iframe标签的src即可
      * @see
      */
     public String searchkuaiDiInfo(String key, String com, String nu)
