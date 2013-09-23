@@ -115,7 +115,7 @@ HtmlAPI支持快递100所有支持的公司，以下只罗列最常见的几个�
 }}}
 
 = 7、JAVA示范 =
-（1）显示结果的页面
+（1）显示结果的页面（indexOne.jsp）
 {{{
 <%@page import="com.suyin.dtcc.order.model.OrderBean"%>
 <%@page import="com.suyin.dtcc.kuaidi.KuaiDi"%>
@@ -174,7 +174,7 @@ HtmlAPI支持快递100所有支持的公司，以下只罗列最常见的几个�
 </body>
 </html>
 }}}
-（2）查询文件
+（2）查询文件（KuaiDi.java）
 {{{
 /*
  * 文件名：KuaiDi.java 版权：Copyright by www.suyinchina.com 描述： 修改人：hxl 修改时间：2013-9-13 跟踪单号： 修改单号： 修改内容：
