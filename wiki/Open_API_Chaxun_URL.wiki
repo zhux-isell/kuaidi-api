@@ -111,7 +111,7 @@
      直接跳转到快递100的快递公司二级页面显示查询结果。
 
 = 4.效果试用和开发示范 =
-     * [http://www.kuaidi100.com/openapi/api_3_01.shtml 快递查询跳转API效果试用]
+     * [http://www.kuaidi100.com/openapi/api_3_02.shtml 快递查询跳转API效果试用]
  
      * [http://www.kuaidi100.com/openapi/api_3_02.shtml 快递查询跳转API开发示范]
 
