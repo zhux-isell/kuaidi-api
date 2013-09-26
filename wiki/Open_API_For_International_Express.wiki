@@ -11,6 +11,7 @@
 ||*C*|| || ||
 || ||canpost||加拿大邮政（英文结果）/Canada Post(English data)||
 || ||canpostfr||加拿大邮政(德文结果）/Canada Post（German data）||
+|| ||citylink||City-Link Express||
 ||*D*|| || ||
 || ||dpex||DPEX||
 || ||dhl||DHL-中国件-中文结果/DHL-China-Chinese data||
