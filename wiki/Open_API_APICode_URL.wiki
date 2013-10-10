@@ -1,6 +1,6 @@
 #labels OPENAPI,API,快递接口,快递API,快递查询接口,快递查询API,APICodeURL
 = 更新公告 =
-APICode URL的使用说明已迁回快递100网站，要了解APICode URL的详细使用说明请点击[http://www.kuaidi100.com/openapi/api_4_02.shtml?typeid=2 快递100带验证码查询接口]。
+APICode URL已经下线，请转用快递100提供的其他API：http://www.kuaidi100.com/openapi/
 
 = 1.APICode URL支持的快递公司及参数说明 =
 ||*分类*|| *快递公司代码* || *公司名称* ||
