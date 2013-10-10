@@ -105,7 +105,7 @@ APICode URL已经下线，请转用快递100提供的其他API：http://www.kuai
 
          * 技术支持：
                   # 发邮件至 kuaidi@kingdee.com，
-                  # [http://club.youshang.com/forum.php?mod=forumdisplay&fid=110&page=1 论坛]，
+                  #[http://blog.kuaidi100.com/?cat=6 论坛]，
                   # QQ、电话等：见获得授权key的邮件。
 
 = 7.附录 =
