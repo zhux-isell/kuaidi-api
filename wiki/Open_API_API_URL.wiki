@@ -86,7 +86,6 @@
 || ||lijisong||立即送（暂只能查好乐买的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 || ||longlangkuaidi||隆浪快递||
 ||*M*|| || ||
-|| ||minghangkuaidi||民航快递||
 || ||menduimen||门对门||
 || ||meiguokuaidi||美国快递||
 || ||mingliangwuliu||明亮物流||
