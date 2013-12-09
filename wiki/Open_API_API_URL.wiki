@@ -8,6 +8,7 @@
 || ||aae||AAE||
 || ||anxindakuaixi||安信达||
 ||*B*|| || ||
+|| ||huitongkuaidi||百世汇通||
 || ||baifudongfang||百福东方||
 || ||bht||BHT||
 || ||youzhengguonei||包裹/平邮/挂号信（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857转“小佰”）||
