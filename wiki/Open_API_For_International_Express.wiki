@@ -33,10 +33,8 @@
 ||*L*|| || ||
 || ||lianbangkuaidi||Fedex-中国件-中文结果/Fedex-China-Chinese data||
 || ||lianbangkuaidien||Fedex-中国件-英文结果/Fedex-China-English data||
-||*P*|| || ||
-|| ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
 ||*R*|| || ||
-|| ||ruidianyouzheng||瑞典邮政包裹小包-中文结果/Posten AB-Chinese data||
+|| ||ruidianyouzheng||瑞典邮政包裹小包-英文结果/Posten AB-English data||
 ||*S*|| || ||
 || ||singpost||新加坡邮政包裹小包||
 ||*T*|| || ||
