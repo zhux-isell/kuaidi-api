@@ -144,8 +144,8 @@
 || ||neweggozzo||新蛋奥硕物流||
 || ||hkpost||香港邮政||
 ||*Y*|| || ||
-|| ||yuantong||圆通速递||
-|| ||yunda||韵达快运||
+|| ||yuantong||圆通速递（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||yunda||韵达快运（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||yuntongkuaidi||运通快递||
 || ||youzhengguonei||邮政国内给据（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||youzhengguoji||邮政国际（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
