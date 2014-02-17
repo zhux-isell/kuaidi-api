@@ -147,8 +147,8 @@
 || ||yuantong||圆通速递（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||yunda||韵达快运（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||yuntongkuaidi||运通快递||
-|| ||youzhengguonei||邮政国内给据（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
-|| ||youzhengguoji||邮政国际（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||youzhengguonei||邮政小包（国内），邮政包裹（国内）、邮政国内给据（国内）（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||youzhengguoji||邮政小包（国际），邮政包裹（国际）、邮政国内给据（国际）（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||yuanchengwuliu||远成物流||
 || ||yafengsudi||亚风速递||
 || ||yibangwuliu||一邦速递||
