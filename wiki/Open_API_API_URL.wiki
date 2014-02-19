@@ -16,7 +16,6 @@
 ||*C*|| || ||
 || ||cces||希伊艾斯（CCES）||
 || ||coe||中国东方（COE）||
-|| ||city100||城市100||
 || ||chuanxiwuliu||传喜物流||
 || ||canpost||加拿大邮政Canada Post（英文结果）||
 || ||canpostfr||加拿大邮政Canada Post(德文结果）||
