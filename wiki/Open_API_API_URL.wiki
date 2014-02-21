@@ -162,7 +162,7 @@
 || ||yinjiesudi||银捷速递||
 || ||yitongfeihong||一统飞鸿（暂只能查天天网的单，其他商家要查，请发邮件至 wensheng_chen#kingdee.com(将#替换成@)开通权限)||
 ||*Z*|| || ||
-|| ||zhongtong||中通速递||
+|| ||zhongtong||中通速递（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||zhaijisong||宅急送||
 || ||ztky||中铁物流（特指：http://www.kuaidi100.com/all/ztwl.shtml ）||
 || ||zhongtiewuliu||中铁快运（特指：http://www.kuaidi100.com/all/ztky.shtml ）||
