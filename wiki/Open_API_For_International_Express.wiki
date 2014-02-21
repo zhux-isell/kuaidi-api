@@ -7,8 +7,8 @@
 || ||auspost||澳大利亚邮政(英文结果）/Australia Post(English data)||
 || ||aramex||Aramex(English data)||
 ||*B*|| || ||
-|| ||bpost||比利时邮政（英文结果）/Bpost (English data)||
-|| ||bpostinter||比利时邮政国际件（英文结果）/Bpost International(English data)||
+|| ||bpost||比利时邮政（英文结果）/Bpost (English data)(只支持输入Local barcode/Local barcode Only）||
+|| ||bpostinter||比利时邮政国际件（英文结果）/Bpost International(English data)(只支持输入Local barcode/Local barcode Only）||
 ||*C*|| || ||
 || ||canpost||加拿大邮政（英文结果）/Canada Post(English data)||
 || ||canpostfr||加拿大邮政(德文结果）/Canada Post（German data）||
