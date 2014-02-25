@@ -102,8 +102,7 @@
 ||*R*|| || ||
 || ||rufengda||如风达快递||
 ||*S*|| || ||
-|| ||shentong||申通（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
-|| ||shentong||申通E物流（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
+|| ||shentong||伸通（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||shunfeng||顺丰速递（中文结果）（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||shunfengen||顺丰（英文结果）（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||santaisudi||三态速递||
