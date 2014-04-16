@@ -23,8 +23,8 @@
 || ||ems||EMS-（中国-中国）件-中文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||ems||E邮宝-(中国-中国)件-中文结果/EMS-China（Sub-brand）-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
 || ||emsen||EMS-（中国-中国）件-英文结果/EMS-(China-China)-Chinese data（暂只支持[Open_API_HTML_API HtmlAPI],要JSON、XML格式结果和签收状态state请联系企业QQ 800036857 转“小佰”）||
-|| ||emsguoji||EMS-（中国-国际）件-中文结果/EMS-(China-International）-Chinese data||
-|| ||emsinten||EMS-（中国-国际）件-英文结果/EMS-(China-International）-Englilsh data||
+|| ||emsguoji||EMS-（中国-国际）件-中文结果/EMS-(China-International）-Chinese data(请联系企业QQ 800036857 转“小佰”开通）||
+|| ||emsinten||EMS-（中国-国际）件-英文结果/EMS-(China-International）-Englilsh data(请联系企业QQ 800036857 转“小佰”开通）||
 ||*F*|| || ||
 || ||fedex||Fedex-国际件-英文结果/Fedex-International-English data||
 || ||fedexcn||Fedex-国际件-中文结果/Fedex-International-Chinese data||
